@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+npx commitlint --edit $1
+while read line; do
+    # Skip comments
+    if [ "${line:0:1}" == "#" ]; then
+        continue
+    fi
+    if [ ${#line} -ge 100 ] || [ ${#line} -le 10 ]; then
+        echo -e "\033[0;31mThe length of the message has to be between 10 and 100 characters."
+        exit 1
+    fi
+done < "${1}"
+
+exit 0
+
