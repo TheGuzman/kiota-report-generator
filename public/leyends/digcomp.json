@@ -1,0 +1,858 @@
+{
+  "sections": {
+    "most_relevant": {
+      "title": {
+        "es": "Más relevantes",
+        "en": "Most relevant"
+      },
+      "description": {
+        "es": null,
+        "en": null
+      },
+      "areas": [
+        "browsing_searching_and_filtering_information",
+        "protecting_personal_data_and_privacy",
+        "evaluating_data_information_and_digital_content"
+      ]
+    },
+    "information": {
+      "title": {
+        "es": "Información",
+        "en": "Information"
+      },
+      "description": {
+        "es": null,
+        "en": null
+      },
+      "areas": [
+        "browsing_searching_and_filtering_information",
+        "evaluating_data_information_and_digital_content",
+        "managing_data_information_and_digital_content"
+      ]
+    },
+    "communication_and_collaboration": {
+      "title": {
+        "es": "Comunicación y colaboración",
+        "en": "Communication and collaboration"
+      },
+      "description": {
+        "es": null,
+        "en": null
+      },
+      "areas": [
+        "interacting_through_digital_technologies",
+        "sharing_through_digital_technologies",
+        "engaging_in_online_citizenship_through_digital_technologies",
+        "communication_and_collaboration",
+        "netiquette",
+        "managing_digital_identity"
+      ]
+    },
+    "content_creation": {
+      "title": {
+        "es": "Creación de contenido",
+        "en": "Content creation"
+      },
+      "description": {
+        "es": null,
+        "en": null
+      },
+      "areas": [
+        "developing_content",
+        "integrating_and_reelaborating",
+        "copyright_and_licenses",
+        "programming"
+      ]
+    },
+    "safety": {
+      "title": {
+        "es": "Seguridad",
+        "en": "Safety"
+      },
+      "description": {
+        "es": null,
+        "en": null
+      },
+      "areas": [
+        "protecting_devices",
+        "protecting_personal_data_and_privacy",
+        "protecting_health_and_well_being",
+        "protecting_the_environment"
+      ]
+    },
+    "problem_solving": {
+      "title": {
+        "es": "Resolución de problemas",
+        "en": "Problem solving"
+      },
+      "description": {
+        "es": null,
+        "en": null
+      },
+      "areas": [
+        "solving_technical_problems",
+        "identifying_needs_and_technological_responses",
+        "creatively_using_technology",
+        "identifying_digital_competence_gaps"
+      ]
+    }
+  },
+  "areas": {
+    "browsing_searching_and_filtering_information": {
+      "title": {
+        "es": "Información de navegación, búsqueda y filtrado",
+        "en": "Browsing, searching and filtering information"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "Ok, ¡eso es un comienzo! Recomendamos que comience en un nivel básico y con orientación, identifique sus necesidades de información, encuentre datos, información y contenido a través de una búsqueda simple en entornos digitales. Intente encontrar cómo acceder a estos datos, información y contenido y navegar entre ellos preguntando a sus compañeros. También puede intentar identificar estrategias de búsqueda personales simples.",
+          "1": "¡Genial! Creo que sabes algo sobre obtener la información correcta para ti. Si cree que está listo para moverse a otro nivel, puede encontrar sus necesidades de información y tener acceso a datos simples, o incluso identificar estrategias de búsqueda personales simples, pero con cierta autonomía y orientación adecuada.",
+          "2": "¡Bien hecho! Te estás convirtiendo en un profesional. Sin embargo, aquí hay algo que podría probar: por su cuenta y resolver problemas directos, intente y explique sus necesidades de información y realice búsquedas bien definidas y de rutina. Después de eso, trate de explicar cómo acceder y navegarlos.",
+          "3": "¡Bien! Es muy importante que puedas hacer eso. Prepárese para mejorar sus habilidades digitales ilustrando las necesidades de información, o incluso organizando las búsquedas de datos en un entorno digital que guía a otros. Intente describir cómo acceder a estos datos y navegar a través de ellos, organizando estrategias de búsqueda personal.",
+          "4": "¡Estás muy avanzado! ¡Felicidades! Según sus necesidades y las de otros en contextos complejos, puede evaluar las necesidades de información y adaptar su búsqueda y explicación a otros su estrategia para encontrar la información más relevante en los entornos digitales. Esto podría ser útil para su mejora.",
+          "5": "¡Grado A! Estás en el camino correcto. Pero siempre hay margen de mejora, ¿no? En contextos complejos y de acuerdo con sus propias necesidades y las de los demás, podría ser excelente si evalúa las necesidades de información, así como adapta su estrategia de búsqueda para los datos más apropiados en los contextos digitales. Trate de explicarle a su gente sobre cómo acceder a esto, variando de persona a persona.",
+          "6": "¡Que asombroso! Continúe si se convierte en un experto. Si desea estar en un nivel altamente especializado, intente crear soluciones a problemas complejos con una definición limitada relacionadas con la navegación, la búsqueda y el filtrado de datos. Tal vez sea posible que contribuya a la práctica profesional para guiar a otros en la navegación, búsqueda y filtrado de datos.",
+          "7": "¡Brillante! ¡Deberias estar orgulloso de ti mismo! Esto significa que eres altamente especializado. Si desea alcanzar el nivel más especializado, puede crear soluciones para resolver problemas complejos con muchos factores interactivos relacionados con los datos de navegación, búsqueda y filtrado. También podría proponer nuevas ideas y procesos en su campo.",
+          "8": "Fantástico trabajo! Eres un emprendedor digital altamente especializado. ¿Qué pasa si pone en práctica todo su conocimiento?"
+        },
+        "en": {
+          "0": "Ok, that’s a start! We recommend that you should start at a basic level and with guidance, identify your information needs, find data, information and content through a simple search in digital environments. Try to find how to access these data, information and content and navigate between them asking your peers. You can also try to identify simple personal search strategies.",
+          "1": "That’s great! I think you know something about getting the right information for you. If you think you are ready to move to another level, you could find your information needs and have access to simple data, or even identify simple personal search strategies but with some autonomy and appropriate guidance.",
+          "2": "Well done! You’re becoming a pro. However, here is something you could try: on your own and solving straightforward problems, have a try and explain your information needs and perform well-defined and routine searches. After that, try to explain how to access and navigate them.",
+          "3": "Right! It’s very important that you can do that. Get ready to improve your digital skills by illustrating information needs, or even organising the searches of data in a digital environment guiding others. Try to describe how to access these data and navigate through it, organising personal search strategies.",
+          "4": "You are very advanced! Congratulations! According to your needs and those of others in complex contexts, you could assess information needs and adapt your searching and explaining to others your strategy to find the most relevant information in digital environments. This could be useful for your improvement.",
+          "5": "Grade A! You are on the right track. But there is always room for improvement, isn’t? In complex contexts and according to your own needs and those of others, it could be great if you assess information needs, as well as adapt your searching strategy for the most appropriate data in digital contexts. Try to explain to your people around how to access this, varying from person to person.",
+          "6": "How great! Continue if you become an expert. If you want to be at a highly specialised level, try to create solutions to complex problems with limited definition that are related to browsing, searching and filtering of data. Maybe it is possible for you to contribute to professional practice to guide others in browsing, searching and filtering data.",
+          "7": "Brilliant! You should be proud of yourself! This means that you are highly specialised. If you want to reach the most specialised level, you could create solutions to solve complex problems with many interacting factors related to browsing, searching and filtering data. You could also propose new ideas and processes to his field.",
+          "8": "Fantastic work! You are a highly specialised digital entrepreneur. What if you put all of your knowledge into practice?"
+        }
+      },
+      "related_section": ["most_relevant", "information"],
+      "tick_icon_limit": 7
+    },
+    "evaluating_data_information_and_digital_content": {
+      "title": {
+        "es": "Evaluación de datos, información y contenido digital.",
+        "en": "Evaluating data, information and digital content."
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "Ok, ¡eso es un comienzo! Recomendamos que comience en un nivel básico y con orientación, detectando la credibilidad y la confiabilidad de las fuentes comunes de datos.",
+          "1": "¡Genial! Creo que sabes algo sobre obtener la información correcta para ti. Si cree que está listo para moverse a otro nivel, podría detectar la credibilidad y la confiabilidad de las fuentes comunes de datos. ¡Prueba esto!",
+          "2": "¡Bien hecho! Te estás convirtiendo en un profesional. Sin embargo, aquí hay algo que podría probar: por su cuenta y resolver problemas directos, intente realizar el análisis, comparación y evaluación de la credibilidad y confiabilidad de fuentes de información bien definidas. ¿Sabía usted que?",
+          "3": "¡Bien! Está determinado que puedes hacer eso. Prepárese para mejorar de forma independiente y de acuerdo con sus propias necesidades realizando el análisis y la comparación y la evaluación de las fuentes de información.",
+          "4": "¡Estás muy avanzado! ¡Felicidades! Según sus necesidades y las de otros en contextos complejos, puede llevar a cabo una evaluación de la credibilidad y la confiabilidad de las diferentes fuentes de datos.",
+          "5": "¡Brillante! ¿Quieres aprender más sobre esto? Sería bueno si evalúa críticamente la credibilidad y la confiabilidad de las fuentes de datos de acuerdo con sus propias necesidades y las de los demás.",
+          "6": "¡Grado A! Estás en el camino correcto. Pero siempre hay margen de mejora, ¿no? Puede crear soluciones a problemas complejos con una definición limitada y evaluar fuentes confiables de datos. Además, trate de integrar mi conocimiento para contribuir a las prácticas y conocimientos profesionales y guiar a otros en el mismo análisis.",
+          "7": "¡Que asombroso! ¡Deberias estar orgulloso de ti mismo! Esto significa que eres altamente especializado. Si desea alcanzar el nivel más especializado, puede crear soluciones para resolver problemas complejos con muchos factores interactivos relacionados con el análisis y la evaluación de fuentes de información creíbles y confiables. Sería perfecto si propones nuevas ideas en este campo.",
+          "8": "Fantástico trabajo! Tiene un nivel muy alto de evaluación de datos. ¿Qué pasa si pone en práctica todo su conocimiento?"
+        },
+        "en": {
+          "0": "Ok, that’s a start! We recommend that you should start at a basic level and with guidance, detecting the credibility and reliability of common sources of data.",
+          "1": "That’s great! I think you know something about getting the right information for you. If you think you are ready to move to another level, you could detect the credibility and reliability of common sources of data. Try this!",
+          "2": "Well done! You’re becoming a pro. However, here is something you could try: on your own and solving straightforward problems, try to perform the analysis, comparison and evaluation of the credibility and reliability of well-defined sources of information. Did you know that?",
+          "3": "Right! It’s determined that you can do that. Get ready to get better independently and according to your own needs by performing the analysis and comparison and evaluation of sources of information.",
+          "4": "You are very advanced! Congratulations! According to your needs and those of others in complex contexts, you could carry out an evaluation of the credibility and reliability of different sources of data.",
+          "5": "Brilliant! Do you want to learn more about this? It would be nice if you critically assess the credibility and reliability of sources of data according to your own needs and those of others.",
+          "6": "Grade A! You are on the right track. But there is always room for improvement, isn’t? You could create solutions to complex problems with limited definition and evaluate reliable sources of data. Moreover, try to integrate my knowledge to contribute to professional practices and knowledge and to guide others in the same analysis.",
+          "7": "How great! You should be proud of yourself! This means that you are highly specialised. If you want to reach the most specialised level, you could create solutions to solve complex problems with many interacting factors that are related to analysing and evaluating credible and reliable sources of information. It would be perfect if you propose new ideas in this field.",
+          "8": "Fantastic work! You have a very high level of evaluating data. What if you put all of your knowledge into practice?"
+        }
+      },
+      "related_section": ["most_relevant", "information"],
+      "tick_icon_limit": 7
+    },
+    "managing_data_information_and_digital_content": {
+      "title": {
+        "es": "Administración de datos, información y contenido digital",
+        "en": "Managing data, information and digital content"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "Ok, ¡no te preocupes! Recomendamos que comience en un nivel básico y con orientación, puede intentar identificar cómo organizar, almacenar y recuperar datos, información y contenido de manera simple en los entornos digitales. También puede reconocer dónde organizarlos de una manera simple en un entorno estructurado.",
+          "1": "¡Genial! Creo que sabes algo sobre obtener la información correcta para ti. Si cree que está listo para moverse a otro nivel, puede identificar cómo organizar, almacenar y recuperar datos de manera simple en los entornos digitales. Trate de reconocer dónde organizarlos de una manera simple.",
+          "2": "¡Bien! ¡Es interesante! Prepárese para mejorar de forma independiente y de acuerdo con sus propias necesidades seleccionando datos, información y contenido para organizar y recuperar de manera rutinaria en entornos digitales. Organíquelos de manera rutinaria también.",
+          "3": "¡Bien hecho! Te estás convirtiendo en un profesional. Sin embargo, aquí hay algo que podría probar: independientemente y de acuerdo con su propia necesidad y resolución de problemas bien definidos y no rutinarios, organice la información para almacenarse fácilmente. Vaya más allá y organice información y datos de manera estructurada.",
+          "4": "¡Brillante! ¿Quieres aprender más sobre esto? Sería bueno si manipula información que guía a otros para su organización, almacenamiento y recuperación más fácil. Trate de llevar a cabo su organización y procesamiento de manera estructurada.",
+          "5": "¡Estás muy avanzado! ¡Felicidades! En un nivel avanzado y de acuerdo con sus propias necesidades y las de los demás y en un contexto complejo, podría tratar de adaptar la gestión de la información para la recuperación y el almacenamiento más apropiados. Podría ser una buena idea adaptarlos para ser organizados y procesados ​​en el entorno estructurado más apropiado.",
+          "6": "¡Que asombroso! ¡Deberias estar orgulloso de ti mismo! Esto significa que estás en un nivel avanzado. Si desea alcanzar el nivel más especializado, puede crear soluciones a problemas complejos con una definición limitada relacionadas con la administración de datos para su almacenamiento de manera estructurada. También puede integrar su conocimiento para contribuir a las prácticas y conocimientos profesionales y para guiar a los demás.",
+          "7": "¡Grado A! Estás en el camino correcto. Pero siempre hay margen de mejora, ¿no? Puede crear soluciones para resolver problemas complejos con muchos factores que están relacionados con la gestión de datos para su organización, almacenamiento y recuperación de una manera estructurada. ¿Qué pasa si propone nuevas ideas y procesos en el campo?",
+          "8": "Fantástico trabajo! Tiene un nivel muy alto de administración de datos, información y contenido digital. ¿Qué pasa si pone en práctica todo su conocimiento?"
+        },
+        "en": {
+          "0": "Ok, don’t worry! We recommend that you should start at a basic level and with guidance, you could try to identify how to organise, store and retrieve data, information and content in a simple way in digital environments. You could also recognise where to organise them in a simple way in a structured environment.",
+          "1": "That’s great! I think you know something about getting the right information for you. If you think you are ready to move to another level, you could identify how to organise, store and retrieve data in a simple way in digital environments. Try to recognise where to organise them in a simple way.",
+          "2": "Right! It is interesting! Get ready to get better independently and according to your own needs by selecting data, information and content in order to organise and retrieve in a routine way in digital environments. Organise them in a routine way as well.",
+          "3": "Well done! You’re becoming a pro. However, here is something you could try: independently and according to your own need and solving well-defined and non-routine problems, organise information to be easily stored. Go further and organise information and data in a structured way.",
+          "4": "Brilliant! Do you want to learn more about this? It would be nice if you manipulate information guiding others for their easier organisation, storage and retrieval. Try to carry out their organisation and processing in a structured way.",
+          "5": "You are very advanced! Congratulations! At an advanced level and according to your own needs and those of others and in a complex context, you could try to adapt the management of information for the most appropriate retrieval and storage. It could be a wise idea to adapt them to be organised and processed in the most appropriate structured environment.",
+          "6": "How great! You should be proud of yourself! This means that you are at an advanced level. If you want to reach the most specialised level, you could create solutions to complex problems with limited definition that are related to managing data for its storage in a structured way. Also you could integrate your knowledge to contribute to professional practices and knowledge and to guide others.",
+          "7": "Grade A! You are on the right track. But there is always room for improvement, isn’t? You could create solutions to solve complex problems with many interacting factors that are related to managing data for its organisation, storage and retrieval in a structured way. What if you propose new ideas and processes to the field?",
+          "8": "Fantastic work! You have a very high level of managing data, information and digital content. What if you put all of your knowledge into practice?"
+        }
+      },
+      "related_section": ["information"],
+      "tick_icon_limit": 7
+    },
+    "interacting_through_digital_technologies": {
+      "title": {
+        "es": "Interactuar a través de tecnologías digitales",
+        "en": "Interacting through digital technologies"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "Ok, ¡no te preocupes! Recomendamos que comience en un nivel básico y con orientación seleccionando tecnologías digitales simples para interactuar e identificar medios de comunicación simples apropiados para un contexto determinado.",
+          "1": "¡Genial! Creo que sabes algo sobre interactuar a través de tecnologías digitales. Si cree que está listo para moverse a otro nivel, puede seleccionar tecnologías digitales simples e identificar medios de comunicación simples apropiados en un nivel básico con cierta orientación.",
+          "2": "¡Bien hecho! Te estás convirtiendo en un profesional. Sin embargo, aquí hay algo que podría probar: por su cuenta y resolver problemas directos, intente y realice interacciones bien definidas y rutinarias en estas tecnologías, e identifique comunicaciones bien definidas y rutinarias.",
+          "3": "¡Bien! Es muy importante que puedas hacer eso. Prepárese para mejorar sus habilidades digitales de forma independiente seleccionando una variedad de tecnologías digitales para interactuar y seleccionando una variedad de medios de comunicación digital apropiados para un contexto determinado.",
+          "4": "¡Estás muy avanzado! ¡Felicidades! Según sus necesidades y las de otros en contextos complejos, puede usar una variedad de tecnologías digitales para interactuar guiando a otros. También puede mostrar a otros los medios de comunicación digital más apropiados para un contexto dado.",
+          "5": "¡Grado A! Estás en el camino correcto. Pero siempre hay margen de mejora, ¿no? En contextos complejos y de acuerdo con sus propias necesidades y las de otros, podría ser excelente si adapta una variedad de tecnologías digitales para la interacción más apropiada, al adaptar también los medios de comunicación más apropiados para una situación determinada. Todo eso, hecho de acuerdo con sus propias necesidades.",
+          "6": "¡Que asombroso! Continúe si se convierte en un experto. Si desea estar en un nivel altamente especializado, intente crear soluciones a problemas complejos con una definición limitada. Además, intente integrar su conocimiento para contribuir a las prácticas y conocimientos profesionales y guiar a otros en la interacción a través de tecnologías digitales.",
+          "7": "¡Grado A! Estás en el camino correcto. Pero siempre hay margen de mejora, ¿no? En el nivel más avanzado, haga un esfuerzo para crear soluciones para resolver problemas complejos con muchos factores que están relacionados con la interacción a través de las tecnologías digitales. ¿Qué pasa si lo pone en práctica para proponer nuevas ideas y procesos en el campo?",
+          "8": "Fantástico trabajo! Tienes un nivel muy alto de comunicación. ¿Qué pasa si pone en práctica todo su conocimiento?"
+        },
+        "en": {
+          "0": "Ok, don’t worry! We recommend that you should start at a basic level and with guidance by selecting simple digital technologies to interact with, and identifying appropriate simple communication means for a given context.",
+          "1": "That’s great! I think you know something about interacting through digital technologies. If you think you are ready to move to another level, you could select simple digital technologies, and identify appropriate simple communication means at a basic level with some guidance.",
+          "2": "Well done! You’re becoming a pro. However, here is something you could try: on your own and solving straightforward problems, have a try and perform well-defined and routine interactions on these technologies, and identify well-defined and routine communications.",
+          "3": "Right! It’s very important that you can do that. Get ready to improve your digital skills independently by selecting a variety of digital technologies to interact, and by selecting a variety of appropriate digital communication means for a given context.",
+          "4": "You are very advanced! Congratulations! According to your needs and those of others in complex contexts, you could use a variety of digital technologies to interact guiding others. You could also show others the most appropriate digital communication means for a given context.",
+          "5": "Grade A! You are on the right track. But there is always room for improvement, isn’t? In complex contexts and according to your own needs and those of others, it could be great if you adapt a variety of digital technologies for the most appropriate interaction, by also adapting the most appropriate communication means for a given situation. All of that, done according to your own needs.",
+          "6": "How great! Continue if you become an expert. If you want to be at a highly specialised level, try to create solutions to complex problems with limited definition. Moreover, have a try integrating your knowledge to contribute to professional practices and knowledge and to guide others in the interaction through digital technologies.",
+          "7": "Grade A! You are on the right track. But there is always room for improvement, isn’t? At the most advanced level, make an effort to create solutions to solve complex problems with many interacting factors that are related to interacting through digital technologies. What if you put it into practice to propose new ideas and processes to the field?",
+          "8": "Fantastic work! You have a very high level of communication. What if you put all of your knowledge into practice?"
+        }
+      },
+      "related_section": ["communication_and_collaboration"],
+      "tick_icon_limit": 7
+    },
+    "sharing_through_digital_technologies": {
+      "title": {
+        "es": "Compartir a través de tecnologías digitales",
+        "en": "Sharing through digital technologies"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "Ok, ¡no te preocupes! Recomendamos que comience en un nivel básico con orientación, puede intentar reconocer tecnologías digitales simples apropiadas para compartir datos, información y contenido digital. ¿Qué pasa si identifica las prácticas simples de referencia y atribución también?",
+          "1": "¡Genial! Creo que sabes algo sobre interactuar a través de tecnologías digitales. Si desea pasar a otro nivel, puede reconocer tecnologías digitales simples apropiadas para compartir datos, información y contenido digital. Puede intentar identificar prácticas simples de referencia y atribución.",
+          "2": "¡Va bien! Por su cuenta y resueltos, problemas directos, puede reflexionar sobre la selección de tecnologías digitales apropiadas bien definidas y de rutina para compartir datos. Explique cómo actuar como intermediario para compartir información y contenido a través de tecnologías digitales bien definidas y de rutina, o podría intentar ilustrar la referencia bien definida y de rutina.",
+          "3": "¡Bien hecho! Te estás convirtiendo en un profesional. Sin embargo, aquí hay algo que podría probar: de forma independiente y de acuerdo con su propia necesidad y resolución de problemas bien definidos y no rutinarios, manipule las tecnologías digitales apropiadas para compartir datos, información y contenido digital. Explique cómo actuar como intermediario para compartir información y contenido a través de tecnologías digitales, ilustrar las prácticas de referencia y atribución.",
+          "4": "¡Estás muy avanzado! ¡Felicidades! Según sus necesidades y las de otros en contextos complejos, puede compartir datos, información y contenido digital a través de una variedad de herramientas digitales apropiadas o mostrar a otros cómo actuar como intermediario para compartir información y contenido a través de tecnologías digitales. ¿Crees que también podría aplicar una variedad de prácticas de referencia y atribución?",
+          "5": "¡Limpio! Si desea ser un profesional, puede evaluar de acuerdo con sus propias necesidades y las de otros, las tecnologías digitales más apropiadas. También puede adaptar mi papel de intermediación o simplemente variar el uso de las prácticas de referencia y atribución más apropiadas.",
+          "6": "¡Que asombroso! ¡Deberias estar orgulloso de ti mismo! Esto significa que estás en un nivel avanzado. Si desea alcanzar el nivel más especializado, puede crear soluciones para problemas complejos con definiciones limitadas relacionadas con el intercambio a través de tecnologías digitales. Integre mi conocimiento para contribuir a las prácticas y el conocimiento profesionales y guiar a otros para compartir a través de tecnologías digitales.",
+          "7": "¡Wow asombroso! Si se está convirtiendo en un experto, intente esto: podría crear soluciones para resolver problemas complejos con muchos factores interactivos relacionados con el intercambio a través de tecnologías digitales. ¿Qué pasa si lo pone en práctica para proponer nuevas ideas y procesos en el campo?",
+          "8": "Fantástico trabajo! Tienes un nivel muy alto de comunicación. ¿Qué pasa si pone en práctica todo su conocimiento?"
+        },
+        "en": {
+          "0": "Ok, don’t worry! We recommend that you should start at a basic level with guidance, you could try to recognise simple appropriate digital technologies to share data, information and digital content. What if you identify simple referencing and attribution practices as well?",
+          "1": "That’s great! I think you know something about interacting through digital technologies. If you want to move to another level, you could recognise simple appropriate digital technologies to share data, information and digital content. You could try to identify simple referencing and attribution practices.",
+          "2": "Going well! On your own and solving straightforward problems, you could reflect on selecting well-defined and routine appropriate digital technologies to share data. Explain how to act as an intermediary for sharing information and content through well-defined and routine digital technologies, or you could try to illustrate well-defined and routine referencing.",
+          "3": "Well done! You’re becoming a pro. However, here is something you could try: independently and according to your own need and solving well-defined and non-routine problems, manipulate appropriate digital technologies to share data, information and digital content. Explain how to act as an intermediary for sharing information and content through digital technologies, illustrate referencing and attribution practices.",
+          "4": "You are very advanced! Congratulations! According to your needs and those of others in complex contexts, you could share data, information and digital content through a variety of appropriate digital tools or show others how to act as an intermediary for sharing information and content through digital technologies. Do you think you could apply a variety of referencing and attribution practices as well?",
+          "5": "Neat! If you want to be a pro, you could assess according to your own needs and those of others the most appropriate digital technologies. You could also adapt my intermediation role or just vary the use of the more appropriate referencing and attribution practices.",
+          "6": "How great! You should be proud of yourself! This means that you are at an advanced level. If you want to reach the most specialised level, you could create solutions to complex problems with limited definitions that are related to sharing through digital technologies. Integrate my knowledge to contribute to professional practices and knowledge and guide others in sharing through digital technologies.",
+          "7": "Wow, great! If you are becoming an expert, try this: you could create solutions to solve complex problems with many interacting factors that are related to sharing through digital technologies.What if you put it into practice to propose new ideas and processes to the field?",
+          "8": "Fantastic work! You have a very high level of communication. What if you put all of your knowledge into practice?"
+        }
+      },
+      "related_section": ["communication_and_collaboration"],
+      "tick_icon_limit": 7
+    },
+    "engaging_in_online_citizenship_through_digital_technologies": {
+      "title": {
+        "es": "Participar en la ciudadanía en línea a través de tecnologías digitales",
+        "en": "Engaging in online citizenship through digital technologies"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "¡Sigue adelante! Nuestra recomendación es que, bajo supervisión directa, puede reconocer tecnologías digitales simples apropiadas para compartir datos y también puede capacitar para identificar prácticas simples de referencia y atribución.",
+          "1": "¡Genial! Creo que sabes algo sobre interactuar a través de tecnologías digitales. Si cree que está listo para moverse a otro nivel, podría reconocer tecnologías digitales simples apropiadas para compartir datos con cierta autonomía. Solicite ayuda cuando intente identificar prácticas simples de referencia y atribución.",
+          "2": "¡Bien! Es muy importante que puedas hacer eso. Prepárese para mejorar sus habilidades digitales seleccionando servicios digitales bien definidos y de rutina para participar en la sociedad por su cuenta. Sería bueno si utiliza tecnologías digitales apropiadas para empoderarme y participar en la sociedad como ciudadano.",
+          "3": "¡Qué lindo! Es muy importante que puedas hacer eso. Prepárese para mejorar sus habilidades digitales de forma independiente seleccionando servicios digitales para participar en la sociedad. Discuta las tecnologías digitales apropiadas para capacitarme y participar en la sociedad como ciudadano.",
+          "4": "¡Brillante! Usted está a medio camino de la excelencia, si desea seguir aprendiendo hasta que lo alcance, podría hacer lo siguiente: guiar a otros, proponer diferentes servicios digitales para participar en la sociedad y utilizar las tecnologías digitales apropiadas para empoderarme y participar en la sociedad como ciudadano.",
+          "5": "¡¡Estás en el camino correcto!! Si desea mejorar sus habilidades, varíe el uso de los servicios digitales más apropiados para participar en la sociedad de acuerdo con sus propias necesidades. Haga un esfuerzo para variar el uso de las tecnologías digitales más apropiadas para capacitarme y participar en la sociedad como ciudadano.",
+          "6": "¡Limpio! Si desea ser un profesional, puede comenzar a pensar en sus necesidades y en las de los demás, variando el uso de los servicios digitales más apropiados para participar en la sociedad o en las de las tecnologías digitales más apropiadas para empoderarse y participar en sociedad como ciudadano.",
+          "7": "¡Genial! Si se está convirtiendo en un experto, trate de crear soluciones para resolver problemas complejos y muchos factores que están relacionados con la participación de la ciudadanía a través de las tecnologías digitales. ¿Podría proponer nuevas ideas y procesos a este campo?",
+          "8": "¡Bien hecho! ¡Sigan con el buen trabajo! Tienes mucho talento para participar en la ciudadanía a través de tecnologías digitales."
+        },
+        "en": {
+          "0": "Keep going! Our recommendation is that, under direct supervision, you could recognise simple appropriate digital technologies to share data and you could also train to identify simple referencing and attribution practices.",
+          "1": "That’s great! I think you know something about interacting through digital technologies. If you think you are ready to move to another level, you could recognise simple appropriate digital technologies to share data with some autonomy. Ask for some help when you try to identify simple referencing and attribution practices.",
+          "2": "Right! It’s very important that you can do that. Get ready to improve your digital skills by selecting well-defined and routine digital services in order to participate in society on your own. It would be nice if you use appropriate digital technologies to empower myself and to participate in society as a citizen.",
+          "3": "That’s nice! It’s very important that you can do that. Get ready to improve your digital skills independently by selecting digital services in order to participate in society. Discuss appropriate digital technologies to empower myself and to participate in society as a citizen.",
+          "4": "Brilliant! You are halfway to excellence, if you want to keep learning until you reach it you could do the following: guiding others, propose different digital services to participate in society and use appropriate digital technologies to empower myself and to participate in society as a citizen.",
+          "5": "You are on the right track!! If you want to improve your skills, vary the use of the most appropriate digital services in order to participate in society according to your own needs.Make an effort to vary the use of the most appropriate digital technologies to empower myself and to participate in society as a citizen.",
+          "6": "Neat! If you want to be a pro, you could start thinking about your needs and those of others, varying the use of the most appropriate digital services in order to participate in society or those of the most appropriate digital technologies to empower yourself and to participate in society as a citizen.",
+          "7": "That’s great! If you are becoming an expert, try to create solutions to solve complex problems and many interacting factors that are related to engaging in citizenship through digital technologies. Could you propose new ideas and processes to this field?",
+          "8": "Well done! Keep up the good work! You are very talented at engaging in citizenship through digital technologies."
+        }
+      },
+      "related_section": ["communication_and_collaboration"],
+      "tick_icon_limit": 7
+    },
+    "communication_and_collaboration": {
+      "title": {
+        "es": "Comunicación y colaboración",
+        "en": "Communication and collaboration"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "Ok, ¡eso es un comienzo! Recomendamos que comience en un nivel básico y con orientación, elija herramientas y tecnologías digitales simples para procesos de colaboración.",
+          "1": "¡Sigue así, estás en el camino correcto! Si está en este nivel, significa que ya ha dado un primer paso en este asunto. Para continuar aprendiendo, podría, en la medida de lo posible y con una ayuda externa mínima, elegir herramientas y tecnologías digitales simples para procesos de colaboración.",
+          "2": "¡Va bien! Tenga en cuenta que no está solo en esto, no lo tome como una tarea universitaria más, puede hacer estas actividades con la ayuda de sus compañeros y centrarse en áreas de su interés. Intente seleccionar herramientas digitales bien definidas y rutinarias para procesos colaborativos.",
+          "3": "¡Está bien! Creo que sabes de lo que estamos hablando. Sin embargo, siempre hay margen de mejora: intente seleccionar herramientas y tecnologías digitales para procesos de colaboración.",
+          "4": "¡Brillante! Usted está a medio camino de la excelencia, si desea seguir aprendiendo hasta que llegue a él, puede hacer lo siguiente: proponer diferentes herramientas y tecnologías digitales para la colaboración con personas de su entorno.",
+          "5": "¡Bien! Es muy importante que puedas hacer eso. Prepárese para variar el uso de las herramientas y tecnologías digitales más apropiadas para los procesos de colaboración. ¿Crees que también podría elegir las herramientas y tecnologías digitales más apropiadas para la co-construcción y la cocreación de datos, recursos y conocimientos?",
+          "6": "¡Es interesante! ¿Eres consciente de que estás altamente especializado en este campo? Si es un inconformista, puede hacerlo: cree soluciones a problemas complejos con una definición limitada relacionadas con el uso de procesos colaborativos y co-construcción y co-creación de datos, recursos y conocimientos a través de herramientas y tecnologías digitales. Trate de integrar mi conocimiento para contribuir a la práctica y el conocimiento profesional y guiar a otros para colaborar a través de tecnologías digitales.",
+          "7": "¡Grado A! Continúa si quieres convertirte en un experto. Para alcanzar un nivel altamente especializado, puede crear soluciones para resolver problemas complejos con muchos factores que están relacionados con el uso de procesos colaborativos y co-construcción y co-creación de datos, recursos y conocimientos a través de herramientas y tecnologías digitales. Crearía un gran valor en el campo si propone nuevas ideas y procesos en el campo.",
+          "8": "¡Bien hecho! ¡Sigan con el buen trabajo! Tienes mucho talento para participar en la colaboración a través de identidades digitales."
+        },
+        "en": {
+          "0": "Ok, that’s a start! We recommend that you should start at a basic level and with guidance, choose simple digital tools and technologies for collaborative processes.",
+          "1": "Keep it up, you are on the right track! If you are at this level it means that you have already taken a first step in this matter. To continue learning you could, as far as possible and with minimal external help, choose simple digital tools and technologies for collaborative processes.",
+          "2": "Going well! Keep in mind that you are not alone in this, don't take it as just another university assignment, you can do these activities with the help of your peers and focusing on areas of your interest. Try to select well-defined and routine digital tools for collaborative processes.",
+          "3": "Alright! I think you know what we are talking about. However, there is always room for improvement: try to select digital tools and technologies for collaborative processes.",
+          "4": "Brilliant! You are halfway to excellence, if you want to keep learning until you reach it you could do the following: propose different digital tools and technologies for collaboration with people of your surroundings.",
+          "5": "Right! It’s very important that you can do that. Get ready to vary the use of the most appropriate digital tools and technologies for collaborative processes. Do you think you could also choose the most appropriate digital tools and technologies for co-constructing and co-creating data, resources and knowledge?",
+          "6": "That’s interesting! Are you aware that you are highly specialised in this field? If you are a nonconformist, you could do that: create solutions to complex problems with limited definition that are related to using collaborative processes and co-construction and co-creation of data, resources and knowledge through digital tools and technologies. Try to integrate my knowledge to contribute to professional practice and knowledge and guide others in collaborating through digital technologies.",
+          "7": "Grade A! Continue if you want to become an expert. To reach a highly specialised level, you could create solutions to solve complex problems with many interacting factors that are related to using collaborative processes and co-construction and co-creation of data, resources and knowledge through digital tools and technologies. It would create a great value to the field if you propose new ideas and processes to the field.",
+          "8": "Well done! Keep up the good work! You are very talented at engaging in collaborating through digital identities."
+        }
+      },
+      "related_section": ["communication_and_collaboration"],
+      "tick_icon_limit": 7
+    },
+    "netiquette": {
+      "title": {
+        "es": "Netiqueta",
+        "en": "Netiquette"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "¿Está seguro? Bueno, esta herramienta sería su primer paso para convertirse en un profesional de la netiquette. Pruebe esto: diferencie las normas y conocimientos de comportamiento simples al usar tecnologías digitales e interactuar en entornos digitales. Eche un vistazo al hacer una búsqueda rápida. Elija modos y estrategias de comunicación simples adaptados a una audiencia y diferenciar aspectos simples de diversidad cultural y generacional a considerar en entornos digitales.",
+          "1": "¡A por ello! Intente seguir estos consejos: en un nivel básico, diferencie las normas y conocimientos de comportamiento simples mientras utiliza tecnologías digitales e interactúa en entornos digitales. Elija modos y estrategias de comunicación simples adaptados a una audiencia y diferenciar aspectos simples de diversidad cultural y generacional a considerar en entornos digitales.",
+          "2": "¡Va bien! Por su cuenta y junto con sus compañeros, puede aclarar las normas y conocimientos de comportamiento bien definidos y de rutina mientras usa tecnologías digitales e interactúa en entornos digitales. Exprese estrategias de comunicación bien definidas y rutinarias adaptadas a una audiencia, y describe aspectos de diversidad culturales y generacionales bien definidos y rutinarios a considerar en entornos digitales.",
+          "3": "¡¡Estás en el camino correcto!! Si desea mejorar sus habilidades, discuta las normas de comportamiento y los conocimientos mientras utiliza tecnologías digitales e interactúa en entornos digitales. Discuta las estrategias de comunicación adaptadas a una audiencia y discute aspectos de diversidad cultural y generacional a considerar en entornos digitales.",
+          "4": "¡Qué lindo! Es muy importante que puedas hacer eso. Prepárese para mejorar sus habilidades digitales de forma independiente aplicando diferentes normas de comportamiento y conocimientos mientras usa tecnologías digitales e interactúa en entornos digitales. Aplique diferentes estrategias de comunicación en entornos digitales adaptados a una audiencia y diferentes aspectos de diversidad cultural y generacional a considerar en entornos digitales.",
+          "5": "¡Limpio! Si desea ser un profesional, de acuerdo con sus propias necesidades y las de los demás, adapte las normas y conocimientos de comportamiento más apropiados al usar tecnologías digitales e interactuar en entornos digitales. Otro paso sería que adaptara las estrategias de comunicación más apropiadas en entornos digitales a una audiencia y aplicar diferentes aspectos de diversidad cultural y generacional en entornos digitales.",
+          "6": "¡Que asombroso! Continúe si se convierte en un experto. Si desea estar en un nivel altamente especializado, trate de crear soluciones a problemas complejos con una definición limitada que estén relacionadas con las etiquetas digitales respetuosas con diferentes audiencias y diversidad cultural y generacional. Integre su conocimiento para contribuir a la práctica y el conocimiento profesional y guiar a otros en la etiqueta digital.",
+          "7": "¡Grado A! Continúa si quieres convertirte en un experto. Para alcanzar un nivel altamente especializado, puede crear soluciones para resolver problemas complejos con muchos factores interactivos relacionados con las etiquetas digitales respetuosas para diferentes audiencias y diversidad cultural y generacional.",
+          "8": "¡Bien hecho! ¡Sigan con el buen trabajo! ¡Tienes mucho talento en la netiquette! ¡Continúa así!"
+        },
+        "en": {
+          "0": "Are you sure? Well, this tool would be your first step into becoming an netiquette professional. Try this: differentiate simple behavioural norms and know-how while using digital technologies and interacting in digital environments. Have a first look at it by doing a quick search. Choose simple communication modes and strategies adapted to an audience and differentiate simple cultural and generational diversity aspects to consider in digital environments.",
+          "1": "Go for it! Try to follow these pieces of advice: at a basic level, differentiate simple behavioural norms and know-how while using digital technologies and interacting in digital environments. Choose simple communication modes and strategies adapted to an audience and differentiate simple cultural and generational diversity aspects to consider in digital environments.",
+          "2": "Going well! On your own and together with peers, you could clarify well-defined and routine behavioural norms and know-how while using digital technologies and interacting in digital environments. Express well-defined and routine communication strategies adapted to an audience, and describe well-defined and routine cultural and generational diversity aspects to consider in digital environments.",
+          "3": "You are on the right track!! If you want to improve your skills, discuss behavioural norms and know-how while using digital technologies and interacting in digital environments. Discuss communication strategies adapted to an audience and discuss cultural and generational diversity aspects to consider in digital environments.",
+          "4": "That’s nice! It’s very important that you can do that. Get ready to improve your digital skills independently by applying different behavioural norms and know-how while using digital technologies and interacting in digital environments. Apply different communication strategies in digital environments adapted to an audience and different cultural and generational diversity aspects to consider in digital environments.",
+          "5": "Neat! If you want to be a pro, according to your own needs and those of others, adapt the most appropriate behavioural norms and know-how while using digital technologies and interacting in digital environments. Another step would be that you adapt the most appropriate communication strategies in digital environments to an audience and to apply different cultural and generational diversity aspects in digital environments.",
+          "6": "How great! Continue if you become an expert. If you want to be at a highly specialised level, try to create solutions to complex problems with limited definition that are related to digital etiquettes respectful to different audiences and cultural and generational diversity. Integrate your knowledge to contribute to professional practice and knowledge and guide others in digital etiquette.",
+          "7": "Grade A! Continue if you want to become an expert. To reach a highly specialised level, you could create solutions to solve complex problems with many interacting factors that are related to digital etiquettes respectful to different audiences and cultural and generational diversity.",
+          "8": "Well done! Keep up the good work! You are very talented at netiquette! Continue like that!"
+        }
+      },
+      "related_section": ["communication_and_collaboration"],
+      "tick_icon_limit": 7
+    },
+    "managing_digital_identity": {
+      "title": {
+        "es": "Gestión de la identidad digital",
+        "en": "Managing digital identity"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "¿Estás seguro de que no tienes ningún conocimiento sobre el tema? ¡Sigue adelante! ¡No te preocupes y no te desanimes! Nuestra recomendación es que intente identificar una identidad digital, describir formas simples de proteger mi reputación en línea y reconocer los datos simples que produce a través de herramientas, entornos o servicios digitales.",
+          "1": "¡Genial! Creo que sabes algo sobre la gestión de identidades digitales a un nivel básico. Con cierta autonomía, puede identificar una identidad digital, describir formas simples de proteger su reputación en línea o reconocer los datos simples que produce a través de herramientas, entornos o servicios digitales.",
+          "2": "¡Genial! ¡Creo que sabes algo sobre esto! Si cree que está listo para pasar a otro nivel, podría, por su cuenta y resolver problemas directos, discriminar entre identidades digitales bien definidas y rutinarias, explicar formas bien definidas y rutinarias para proteger mi reputación en línea y describir bien Los datos definidos que produce rutinariamente a través de herramientas digitales.",
+          "3": "¡Bien! ¡Es interesante! Prepárese para mejorar de acuerdo con sus propias necesidades mostrando una variedad de identidades digitales específicas. Discuta formas específicas de proteger mi reputación en línea. Además, podría manipular datos que produzca a través de herramientas digitales, entornos o servicios.",
+          "4": "¡Brillante! Usted está a medio camino de la excelencia, si desea seguir aprendiendo hasta que lo alcance, puede hacer lo que sigue: use una variedad de identidades digitales. Aplique diferentes formas de proteger mi reputación en línea y usar datos que produzca a través de varias herramientas digitales.",
+          "5": "¡Limpio! Ya está bien versado en el tema, si desea ser un profesional, podría comenzar a discriminar múltiples identidades digitales, explicar las formas más apropiadas de proteger la reputación. Intente cambiar los datos producidos a través de varias herramientas, entornos y servicios.",
+          "6": "¡Grado A! Continúa si quieres convertirte en un experto. Para alcanzar un nivel altamente especializado, puede crear soluciones a problemas complejos con una definición limitada relacionadas con la gestión de identidades digitales y la protección de la reputación en línea de las personas. Integre mi conocimiento para contribuir a la práctica y el conocimiento profesional y guiar a otros en la gestión de la identidad digital.",
+          "7": "Estás a un paso de la excelencia en el campo. Nuestra recomendación para que continúe practicando, creando soluciones para resolver problemas complejos con muchos factores que están relacionados con la gestión de identidades digitales y la protección de la reputación en línea de las personas. Crearía un gran valor en el campo si propone nuevas ideas y procesos en el campo.",
+          "8": "¡Bien hecho! ¡Sigan con el buen trabajo! ¡Tienes mucho talento para administrar identidades digitales! ¡Continúa así!"
+        },
+        "en": {
+          "0": "Are you sure you don't have any knowledge on the subject? Keep going! Don’t worry and don't get discouraged! Our recommendation is that you try to identify a digital identity, describe simple ways to protect my reputation online, and recognise simple data you produce through digital tools, environments or services.",
+          "1": "That’s great! I think you know something about managing digital identities at a basic level. With some autonomy, you could identify a digital identity, describe simple ways to protect your reputation online, or recognise simple data you produce through digital tools, environments or services.",
+          "2": "That’s great! I think you know something about this! If you think you are ready to move to another level, you could, on your own and solving straightforward problems, discriminate between well-defined and routine digital identities, explain well-defined and routine ways to protect my reputation online, and describe well-defined data you routinely produce through digital tools.",
+          "3": "Right! It is interesting! Get ready to get better according to your own needs by displaying a variety of specific digital identities. Discuss specific ways to protect my reputation online. Besides, you could manipulate data I produce through digital tools, environments or services.",
+          "4": "Brilliant! You are halfway to excellence, if you want to keep learning until you reach it you could do what follows: use a variety of digital identities. Apply different ways to protect my reputation online and use data I produce through several digital tools.",
+          "5": "Neat! You are already well versed in the subject, if you want to be a professional, you could start discriminating multiple digital identities, explain the more appropriate ways to protect reputation. Try to change the data produced through several tools, environments and services.",
+          "6": "Grade A! Continue if you want to become an expert. To reach a highly specialised level, you could create solutions to complex problems with limited definition that are related to managing digital identities and protection of people’s online reputation. Integrate my knowledge to contribute to professional practice and knowledge and guide others in managing digital identity.",
+          "7": "You are one step away from excellence in the field. Our recommendation for you to continue to practise, by creating solutions to solve complex problems with many interacting factors that are related to managing digital identities and protection of people’s online reputation. It would create a great value to the field if you propose new ideas and processes to the field.",
+          "8": "Well done! Keep up the good work! You are very talented at managing digital identities! Continue like that!"
+        }
+      },
+      "related_section": ["communication_and_collaboration"],
+      "tick_icon_limit": 7
+    },
+    "developing_content": {
+      "title": {
+        "es": "Desarrollo de contenido",
+        "en": "Developing content"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "¿Estás seguro de que no tienes ningún conocimiento sobre el tema? ¡Sigue adelante! ¡No te preocupes y no te desanimes! Nuestra recomendación es que intente identificar formas de crear y editar contenido simple en formatos simples. Elija cómo me expreso a través de la creación de medios digitales simples.",
+          "1": "¡Genial! Creo que sabes algo sobre el desarrollo de contenido. Con una guía adecuada, identifique formas de crear y editar contenido simple en formatos simples, elija cómo me expreso a través de la creación de medios digitales simples.",
+          "2": "¡Bien hecho! Te estás convirtiendo en un profesional. Sin embargo, aquí hay algo que podría probar: por su cuenta y resolver problemas directos, indique formas de crear y editar contenido bien definido y de rutina en diferentes formatos. Expresarse a través de la creación de medios digitales bien definidos y de rutina.",
+          "3": "¡Estás en el camino correcto! Si desea mejorar sus habilidades, indique formas de crear y editar contenido en diferentes formatos. Expresarse a través de la creación de medios digitales.",
+          "4": "¡Brillante! Usted está a medio camino de la excelencia, si desea seguir aprendiendo hasta que llegue a él, puede hacer lo siguiente: guiar a otros, aplicar formas de crear y editar contenido en diferentes formatos y mostrar formas de expresarme a través de la creación de medios digitales. ¡A por ello!",
+          "5": "¡Limpio! Si desea ser un profesional, de acuerdo con sus propias necesidades y las de los demás, cambie el contenido utilizando los formatos más apropiados y adapte la expresión de usted mismo a través de la creación de los medios digitales más apropiados.",
+          "6": "¡Que asombroso! Continúe si se convierte en un experto. Si desea estar en un nivel altamente especializado, trate de crear soluciones a problemas complejos con una definición limitada relacionadas con la creación y edición de contenido en diferentes formatos, y la autoexpresión a través de medios digitales. Integre su conocimiento para contribuir a la práctica y el conocimiento profesional y guiar a otros en el desarrollo de contenido.",
+          "7": "¡Wow asombroso! Si se está convirtiendo en un experto, intente esto: cree soluciones para resolver problemas complejos con muchos factores que están relacionados con la creación y edición de contenido en diferentes formatos, y la autoexpresión a través de medios digitales. Proponga nuevas ideas para el desarrollo de la creación de contenido.",
+          "8": "Fantástico trabajo! Tienes un nivel muy alto de comunicación. ¿Qué pasa si pone en práctica todo su conocimiento?"
+        },
+        "en": {
+          "0": "Are you sure you don't have any knowledge on the subject? Keep going! Don’t worry and don't get discouraged! Our recommendation is that you try to identify ways to create and edit simple content in simple formats. Choose how I express myself through the creation of simple digital means.",
+          "1": "That’s great! I think you know something about developing content. With appropriate guidance, identify ways to create and edit simple content in simple formats, Choose how I express myself through the creation of simple digital means.",
+          "2": "Well done! You’re becoming a pro. However, here is something you could try: on your own and solving straightforward problems, indicate ways to create and edit well-defined and routine content in different formats. Express yourself through the creation of well-defined and routine digital means.",
+          "3": "You are on the right track! If you want to improve your skills, indicate ways to create and edit content in different formats. Express yourself through the creation of digital means.",
+          "4": "Brilliant! You are halfway to excellence, if you want to keep learning until you reach it you could do the following: guiding others, apply ways to create and edit content in different formats and show ways to express myself through the creation of digital means. Go for it!",
+          "5": "Neat! If you want to be a pro, according to your own needs and those of others, change content using the most appropriate formats, and adapt the expression of yourself through the creation of the most appropriate digital means.",
+          "6": "How great! Continue if you become an expert. If you want to be at a highly specialised level, try to create solutions to complex problems with limited definition that are related to content creation and edition in different formats, and self-expression through digital means. Integrate your knowledge to contribute to professional practice and knowledge and guide others in developing content.",
+          "7": "Wow, great! If you are becoming an expert, try this: create solutions to solve complex problems with many interacting factors that are related to content creation and edition in different formats, and self-expression through digital means. Propose new ideas for the development of content creation.",
+          "8": "Fantastic work! You have a very high level of communication. What if you put all of your knowledge into practice?"
+        }
+      },
+      "related_section": ["content_creation"],
+      "tick_icon_limit": 7
+    },
+    "integrating_and_reelaborating": {
+      "title": {
+        "es": "Integrando y reelaborando",
+        "en": "Integrating and re-elaborating"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "Bueno, no te preocupes, ¡no te desanimes! Nuestra recomendación es que busque a alguien que pueda ayudarlo y dirigirlo para que, bajo su supervisión, pueda seleccionar formas de modificar, refinar, mejorar e integrar elementos simples de nuevo contenido e información para crear nuevos y originales.",
+          "1": "¡A por ello! Si está en este nivel, significa que ya ha dado un primer paso en este asunto. Ahora, para continuar aprendiendo que podría, en la medida de lo posible con ayuda externa mínima, seleccionar formas de modificar, refinar, mejorar e integrar elementos simples de nuevo contenido e información para crear nuevos y originales.",
+          "2": "¡Genial! Creo que sabes algo sobre valorar ideas. Si cree que está listo para moverse a otro nivel, podría, resolver problemas directos, explicar formas de modificar, refinar, mejorar e integrar elementos bien definidos de nuevo contenido e información para crear nuevos y originales.",
+          "3": "¡¡Estás en el camino correcto!! Si desea mejorar sus habilidades, discuta formas de modificar, refinar, mejorar e integrar contenido e información para crear nuevas y originales.",
+          "4": "¡Felicidades! Usted está a medio camino de la excelencia, si desea seguir aprendiendo hasta que llegue a él, puede hacer lo siguiente: operar con nuevos elementos diferentes de contenido e información, modificar, refinar, mejorar e integrarlos para crear nuevos y originales.",
+          "5": "¡Limpio! Ya está bien versado en el tema, si desea ser un profesional, asumiendo la responsabilidad de tomar decisiones y trabajar con otros, operar con nuevos elementos diferentes de contenido e información, modificar, refinar, mejorar e integrarlas para crear nuevos y originales.",
+          "6": "¡Estás muy avanzado! Si desea convertirse en un experto, le recomendamos que cree soluciones a problemas complejos con definiciones limitadas relacionadas con la modificación, refinación, mejora e integración de nuevos contenidos e información sobre el conocimiento existente para crear nuevas y originales. También puede integrar su conocimiento para contribuir a la práctica y el conocimiento profesional, guiando a otros para integrar y reelaborar contenido.",
+          "7": "Estás a un paso de la excelencia. Que mas puedes hacer? Nuestra recomendación para usted es crear soluciones para resolver problemas complejos con muchos factores que están relacionados con la modificación, refinación, mejora e integración de nuevos contenidos e información sobre el conocimiento existente para crear nuevos y originales. Sería una buena idea proponer nuevas ideas y procesos en el campo.",
+          "8": "¡Bien hecho! Sigan con el buen trabajo, usted es un experto en la integración y reelaboración de contenido digital. Es hora de ponerlo en práctica y contribuir a la sociedad con su conocimiento."
+        },
+        "en": {
+          "0": "Well, don’t worry, don't get discouraged! Our recommendation is that you look for someone who can help and direct you so that under their supervision you can select ways to modify, refine, improve and integrate simple items of new content and information to create new and original ones.",
+          "1": "Go for it! If you are at this level it means that you have already taken a first step in this matter. Now to continue learning you could, as far as possible with minimal external help, select ways to modify, refine, improve and integrate simple items of new content and information to create new and original ones.",
+          "2": "That’s great! I think you know something about valuing ideas. If you think you are ready to move to another level, you could, solving straightforward problems, explain ways to modify, refine, improve and integrate well-defined items of new content and information to create new and original ones.",
+          "3": "You are on the right track!! If you want to improve your skills, discuss ways to modify, refine, improve and integrate new content and information to create new and original ones.",
+          "4": "Congratulations! You are halfway to excellence, if you want to keep learning until you reach it you could do the following: operate with new different items of content and information, modifying, refining, improving and integrating them in order to create new and original ones.",
+          "5": "Neat! You are already well versed in the subject, if you want to be a pro, taking responsibility for making decisions and working with others, operate with new different items of content and information, modifying, refining, improving and integrating them in order to create new and original ones.",
+          "6": "You are very advanced! If you want to become an expert, we recommend that you create solutions to complex problems with limited definitions that are related to modifying, refining, improving and integrating new content and information into existing knowledge to create new and original ones. You could also integrate your knowledge to contribute to professional practice and knowledge, guiding others in integrating and re-elaborating content.",
+          "7": "You are one step away from excellence. What more can you do? Our recommendation for you is to create solutions to solve complex problems with many interacting factors that are related to modifying, refining, improving and integrating new content and information into existing knowledge to create new and original ones. It would be a wise idea to propose new ideas and processes to the field.",
+          "8": "Well done! Keep up the good work, you are an expert in integrating and re-elaborating digital content. It is time to put it into practice and contribute to society with your knowledge."
+        }
+      },
+      "related_section": ["content_creation"],
+      "tick_icon_limit": 7
+    },
+    "copyright_and_licenses": {
+      "title": {
+        "es": "Derechos de autor y licencias",
+        "en": "Copyright and licenses"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "Ok, ¡no te preocupes! Recomendamos que comience en un nivel básico con orientación. Puede intentar identificar reglas simples de derechos de autor y licencias que se aplican a datos, información digital y contenido.",
+          "1": "¡Bien hecho! Si está en este nivel, significa que ya ha dado un primer paso en este asunto. Ahora para continuar aprendiendo que podría, en la medida de lo posible con una ayuda externa mínima, tratar de identificar reglas simples de derechos de autor y licencias que se aplican a datos, información digital y contenido.",
+          "2": "¡Va bien! Por su cuenta y resueltos, problemas directos, puede indicar reglas bien definidas y rutinarias de derechos de autor y licencias que se aplican a datos, información digital y contenido.",
+          "3": "¡Estás en el camino correcto! Si desea mejorar sus habilidades, discuta las reglas de derechos de autor y licencias que se aplican a la información y el contenido digital.",
+          "4": "¡Brillante! Usted está a medio camino de la excelencia, si desea seguir aprendiendo hasta que llegue a él, puede hacer lo siguiente: aplique diferentes reglas de derechos de autor y licencias que se aplican a los datos, la información digital y el contenido.",
+          "5": "¡Limpio! Si desea ser un profesional, asumir la responsabilidad de tomar decisiones y trabajar con otros, puede elegir las reglas más apropiadas que apliquen derechos de autor y licencias a datos, información digital y contenido.",
+          "6": "¡Grado A! Si desea convertirse en un experto, le recomendamos que cree soluciones a problemas complejos con una definición limitada relacionadas con la aplicación de derechos de autor y licencias a datos, información digital y contenido. Podría ser mejor si también integra su conocimiento para contribuir a la práctica profesional y al conocimiento y guiar a otros para aplicar derechos de autor y licencias.",
+          "7": "Estás a un paso de la excelencia en el campo. Nuestra recomendación para que continúe practicando, cree soluciones para resolver problemas complejos con muchos factores que están relacionados con la aplicación de derechos de autor y licencias a datos, información digital y contenido. También puede proponer nuevas ideas y procesos al campo a otros expertos en su campo.",
+          "8": "Bien hecho, sigan con el buen trabajo, usted es un experto en derechos de autor. Es hora de ponerlo en práctica y contribuir a la sociedad con su conocimiento."
+        },
+        "en": {
+          "0": "Ok, don’t worry! We recommend that you should start at a basic level with guidance. You could try to  identify simple rules of copyright and licenses that apply to data, digital information and content.",
+          "1": "Well done! If you are at this level it means that you have already taken a first step in this matter. Now to continue learning you could, as far as possible with minimal external help, try to identify simple rules of copyright and licenses that apply to data, digital information and content.",
+          "2": "Going well! On your own and solving straightforward problems, you could indicate well-defined and routine rules of copyright and licenses that apply to data, digital information and content.",
+          "3": "You are on the right track! If you want to improve your skills, discuss rules of copyright and licenses that apply to digital information and content.",
+          "4": "Brilliant! You are halfway to excellence, if you want to keep learning until you reach it you could do the following: apply different rules of copyright and licenses that apply to data, digital information and content.",
+          "5": "Neat! If you want to be a pro, taking responsibility for making decisions and working with others, you could choose the most appropriate rules that apply copyright and licences to data, digital information and content.",
+          "6": "Grade A! If you want to become an expert, we recommend that you create solutions to complex problems with limited definition that are related to applying copyright and licenses to data, digital information and content. It could be better if you also integrate your knowledge to contribute to professional practice and knowledge and guide others in applying copyright and licenses.",
+          "7": "You are one step away from excellence in the field. Our recommendation for you to continue to practise, create solutions to solve complex problems with many interacting factors that are related to applying copyright and licenses to data, digital information and content. You could also propose new ideas and processes to the field to other experts in your field.",
+          "8": "Well done, keep up the good work, you are an expert in copyrighting. It is time to put it into practice and contribute to society with your knowledge."
+        }
+      },
+      "related_section": ["content_creation"],
+      "tick_icon_limit": 7
+    },
+    "programming": {
+      "title": {
+        "es": "Programación",
+        "en": "Programming"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "Ok, ¡no te preocupes! Recomendamos que comience en un nivel básico con orientación. Enumere instrucciones simples para que un sistema informático resuelva un problema simple o realice una tarea simple.",
+          "1": "¡Genial! Creo que sabes algo sobre la programación. Con algo de autonomía pero con alguna guía apropiada, puede enumerar S",
+          "2": "¡Va bien! Para continuar, puede enumerar en su propia lista instrucciones bien definidas y de rutina para que un sistema informático resuelva problemas de rutina o realice tareas de rutina.",
+          "3": "¡Estás en el camino correcto! Si desea mejorar sus habilidades, puede trabajar en las instrucciones de la lista para que un sistema informático resuelva un problema dado o realice una tarea específica.",
+          "4": "¡Brillante! Usted está a medio camino de la excelencia, si desea seguir aprendiendo hasta alcanzarlo, puede hacer lo siguiente: operar con instrucciones para que un sistema informático resuelva un problema diferente o realice diferentes tareas.",
+          "5": "¡Limpio! Si desea ser un profesional, determine las instrucciones más apropiadas para que un sistema informático resuelva un problema dado y realice tareas específicas de acuerdo con sus propias necesidades y las de los demás.",
+          "6": "¡Grado A! Continúa si quieres convertirte en un experto. Puede crear soluciones a problemas complejos con definiciones limitadas relacionadas con la planificación y el desarrollo de instrucciones para un sistema informático y realizar una tarea utilizando un sistema informático. Además de eso, trate de integrar mi conocimiento para contribuir a la práctica y el conocimiento profesional y guiar a otros en la programación.",
+          "7": "Si se está convirtiendo en un experto, le recomendamos que cree soluciones para resolver problemas complejos con muchos factores que están relacionados con la planificación y el desarrollo de instrucciones para un sistema informático y realizar una tarea utilizando un sistema informático. En este punto, ¿podría proponer nuevas ideas y procesos en el campo?",
+          "8": "¡Bien hecho! Sigan con el buen trabajo, usted es un experto en programación. Es hora de ponerlo en práctica y contribuir a la sociedad con su conocimiento."
+        },
+        "en": {
+          "0": "Ok, don’t worry! We recommend that you should start at a basic level with guidance. List simple instructions for a computing system to solve a simple problem or perform a simple task.",
+          "1": "That’s great! I think you know something about programming. With some autonomy but with some appropriate guidance, you could list s",
+          "2": "Going well! To keep going, you could list on your own list well-defined and routine instructions for a computing system to solve routine problems or perform routine tasks.",
+          "3": "You are on the right track! If you want to improve your skills you could work on list instructions for a computing system to solve a given problem or perform a specific task.",
+          "4": "Brilliant! You are halfway to excellence, if you want to keep learning until you reach it you could do the following: operate with instructions for a computing system to solve a different problem or perform different tasks.",
+          "5": "Neat! If you want to be a pro, determine the most appropriate instructions for a computing system to solve a given problem and perform specific tasks according to your own needs and those of others.",
+          "6": "Grade A! Continue if you want to become an expert. You could create solutions to complex problems with limited definitions that are related to planning and developing instructions for a computing system and performing a task using a computing system. As well as that, try to integrate my knowledge to contribute to professional practice and knowledge and guide others in programming.",
+          "7": "If you are becoming an expert, we recommend that you create solutions to solve complex problems with many interacting factors that are related to planning and developing instructions for a computing system and performing a task using a computing system. At this point, could you propose new ideas and processes to the field?",
+          "8": "Well done! Keep up the good work, you are an expert in programming. It is time to put it into practice and contribute to society with your knowledge."
+        }
+      },
+      "related_section": ["content_creation"],
+      "tick_icon_limit": 7
+    },
+    "protecting_devices": {
+      "title": {
+        "es": "Protección de dispositivos",
+        "en": "Protecting devices"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "¿Estás seguro de que no eres creativo en absoluto? Bueno, no te preocupes, ¡no te desanimes! Intente identificar formas simples de proteger mis dispositivos y contenido digital, y diferenciar los riesgos y amenazas simples en entornos digitales. ¿Qué pasa si elige medidas simples de seguridad o identifica formas simples de tener la debida fiabilidad y la privacidad?",
+          "1": "¡Bien hecho! Si está en este nivel, significa que ya ha dado un primer paso en este asunto. ¡A por ello! Ahora, para continuar aprendiendo que podría, en la medida de lo posible, con una ayuda externa mínima, identificar formas simples de proteger mis dispositivos y contenido digital, y diferenciar riesgos y amenazas simples en entornos digitales. Siga simples medidas de seguridad e identifique formas simples de tener la debida confiabilidad y privacidad.",
+          "2": "¡Va bien! Para seguir adelante, por su cuenta y junto con sus compañeros, trate de indicar formas bien definidas y rutinarias para proteger mis dispositivos y contenido digital, y diferenciar riesgos y amenazas bien definidas y de rutina en entornos digitales. Seleccione también medidas de seguridad y seguridad bien definidas y rutinarias. Para hacer algo más por su desarrollo, indique formas bien definidas y rutinarias para tener la debida confiabilidad y privacidad.",
+          "3": "¡Estás en el camino correcto! Si desea mejorar sus habilidades, organice formas de proteger mis dispositivos y contenido digital, y diferenciar los riesgos y amenazas en entornos digitales. Seleccione medidas de seguridad y explique formas de tener la debida consideración a la confiabilidad y la privacidad.",
+          "4": "¡Felicidades! Estás a medio camino de la excelencia. Si desea seguir aprendiendo hasta que lo alcance, puede hacer lo siguiente: aplique diferentes formas de proteger los dispositivos y el contenido digital, y diferenciar una variedad de riesgos y amenazas en entornos digitales, así como aplicar medidas de seguridad y seguridad. Emplee diferentes formas de tener la debida confiabilidad y privacidad.",
+          "5": "¡Limpio! Ya está bien versado en el tema, si desea ser un profesional, podría comenzar a elegir la protección más adecuada para dispositivos y contenido digital, y discriminar riesgos y amenazas en entornos digitales. Elija las medidas de seguridad y seguridad más apropiadas. Evaluar las formas más apropiadas de tener la debida confiabilidad y privacidad.",
+          "6": "¡Grado A! Si desea convertirse en un experto, rodearse de las personas necesarias para esto y no tener prisa, convertirse en un experto en un tema requiere tiempo y esfuerzo, pero ya tiene mucho trabajo realizado y todo se puede lograr. . Le recomendamos que cree soluciones a problemas complejos con una definición limitada relacionadas con la protección de dispositivos y contenido digital, gestionando riesgos y amenazas, aplicando medidas de seguridad y confiabilidad y privacidad en entornos digitales. Trate de integrar su conocimiento para contribuir a la práctica y el conocimiento profesional y guiar a otros en la protección de dispositivos.",
+          "7": "¡Eso es maravilloso! Si desea seguir su camino para convertirse en un experto, cree soluciones para resolver problemas complejos con muchos factores interactivos relacionados con la protección de dispositivos y contenido digital, gestionando riesgos y amenazas, aplicando medidas de seguridad, y confiabilidad y privacidad en entornos digitales . ¿Algo más? Proponer nuevas ideas y procesos en el campo.",
+          "8": "¡Bien hecho! Sigan con el buen trabajo, usted es un experto en proteger sus dispositivos y los de los demás. Es hora de ponerlo en práctica y contribuir a la sociedad con su conocimiento."
+        },
+        "en": {
+          "0": "Are you sure that you are not creative at all? Well, don’t worry, don't get discouraged! Try to identify simple ways to protect my devices and digital content, and differentiate simple risks and threats in digital environments. What if you choose simple safety and security measures or identify simple ways to have due regard to reliability and privacy.",
+          "1": "Well done! If you are at this level it means that you have already taken a first step in this matter. Go for it! Now to continue learning you could, as far as possible with minimal external help, identify simple ways to protect my devices and digital content, and differentiate simple risks and threats in digital environments. Follow simple safety and security measures and identify simple ways to have due regard to reliability and privacy.",
+          "2": "Going well! To keep going, on your own and together with peers, try to indicate well-defined and routine ways to protect my devices and digital content, and differentiate well-defined and routine risks and threats in digital environments. Select also well-defined and routine safety and security measures. To do something more for your development, indicate well-defined and routine ways to have due regard to reliability and privacy.",
+          "3": "You are on the right track! If you want to improve your skills, organise ways to protect my devices and digital content, and differentiate risks and threats in digital environments. Select safety and security measures and explain ways to have due regard to reliability and privacy.",
+          "4": "Congratulations! You are halfway to excellence. If you want to keep learning until you reach it you could do the following: apply different ways to protect devices and digital content, and differentiate a variety of risks and threats in digital environments, as well as applying safety and security measures. Employ different ways to have due regard to reliability and privacy.",
+          "5": "Neat! You are already well versed in the subject, if you want to be a pro, you could start choosing the most appropriate protection for devices and digital content, and discriminating risks and threats in digital environments. Choose the most appropriate safety and security measures. Assess the most appropriate ways to have due regard to reliability and privacy.",
+          "6": "Grade A! If you want to become an expert, surround yourself with the necessary people for this and don't be in a hurry, becoming an expert on a topic takes time and effort but you already have a lot of the work done and it is all achievable. We recommend that you create solutions to complex problems with limited definition that are related to protecting devices and digital content, managing risks and threats, applying safety and security measures, and reliability and privacy in digital environments. Try to integrate your knowledge to contribute to professional practice and knowledge and guide others in protecting devices.",
+          "7": "That’s wonderful! If you want to follow your path on becoming an expert, create solutions to solve complex problems with many interacting factors that are related to protecting devices and digital content, managing risks and threats, applying safety and security measures, and reliability and privacy in digital environments. Something more? Propose new ideas and processes to the field.",
+          "8": "Well done! Keep up the good work, you are an expert in protecting your devices and those of others. It is time to put it into practice and contribute to society with your knowledge."
+        }
+      },
+      "related_section": ["safety"],
+      "tick_icon_limit": 7
+    },
+    "protecting_personal_data_and_privacy": {
+      "title": {
+        "es": "Protección de datos personales y privacidad",
+        "en": "Protecting personal data and privacy"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "¿Estás seguro de que no tienes ningún conocimiento sobre el tema? ¡No te preocupes, no te desanimes! Nuestra recomendación es que busque a alguien que pueda ayudarlo y dirigirlo para que pueda seleccionar formas simples de proteger mis datos personales y la privacidad en entornos digitales. Aproveche e identifique formas simples de usar y compartir información de identificación personal mientras protegía a mí y a los demás de los daños. Intente identificar declaraciones simples de política de privacidad de cómo se utilizan los datos personales en los servicios digitales.",
+          "1": "¡A por ello! Si está en este nivel, significa que ya ha dado un primer paso. Con autonomía y orientación apropiada cuando sea necesario, seleccione formas simples de proteger mis datos personales y la privacidad en entornos digitales e identificar formas simples de usar y compartir información de identificación personal mientras protegimos a mí y a los demás de los daños. Intente identificar declaraciones simples de política de privacidad de cómo se utilizan los datos personales en los servicios digitales.",
+          "2": "¡Va bien! ¿Un paso más? Por su cuenta y junto con sus compañeros, explique formas bien definidas y rutinarias para proteger mis datos personales y la privacidad en entornos digitales. Intente explicar formas bien definidas y rutinarias de usar y compartir información de identificación personal mientras protegimos a mí y a los demás de los daños. Indique declaraciones de política de privacidad bien definidas y de rutina sobre cómo se utilizan los datos personales en los servicios digitales.",
+          "3": "¡Estás en el camino correcto! Si desea mejorar sus habilidades, puede discutir formas de proteger mis datos personales y la privacidad en entornos digitales. Intente y discuta formas de usar y compartir información de identificación personal mientras protegía a mí y a los demás de los daños. Indique declaraciones de política de privacidad de cómo se utilizan los datos personales en los servicios digitales.",
+          "4": "¡Brillante! Usted está a medio camino de la excelencia, si desea seguir aprendiendo hasta que llegue a él, puede hacer lo siguiente: aplique diferentes formas de proteger mis datos personales y la privacidad en entornos digitales. Mientras hace esto, aplique diferentes formas específicas de compartir mis datos mientras protegía a mí y a los demás de los peligros. Explique las declaraciones de la política de privacidad de cómo se utilizan los datos personales en los servicios digitales.",
+          "5": "¡Limpio! Ya está bien versado en el tema, si desea ser un profesional, podría comenzar a trabajar con otros, elegir las formas más apropiadas de proteger los datos personales y la privacidad en los entornos digitales, y evaluar las formas más apropiadas de usar y compartir personalmente información identificable mientras se protege a sí mismo y a los demás de los daños. Para ser un verdadero Gamechanger, trate de evaluar la idoneidad de las declaraciones de política de privacidad sobre cómo se utilizan los datos personales.",
+          "6": "¡Grado A! Si desea convertirse en un experto, le recomendamos que cree soluciones a problemas complejos con una definición limitada relacionadas con la protección de los datos personales y la privacidad en entornos digitales, utilizando y compartiendo información de identificación personal que protege a sí mismo y a los demás de los peligros, y las políticas de privacidad usa mis datos personales. Integre mi conocimiento para contribuir a la práctica profesional y al conocimiento y guiar a otros para proteger los datos y la privacidad personales.",
+          "7": "Si está en camino de convertirse en un experto, le recomendamos que cree soluciones para resolver problemas complejos con muchos factores interactivos relacionados con la protección de los datos personales y la privacidad en los entornos digitales, utilizando y compartiendo información de identificación personal que protege a sí mismo y a los demás de los peligros. y políticas de privacidad para usar mis datos personales.",
+          "8": "¡Bien hecho! Esto se debe a su gran trabajo anterior. Usted es un experto en proteger los datos personales y la privacidad. Es hora de ponerlo en práctica y contribuir a la sociedad con su conocimiento."
+        },
+        "en": {
+          "0": "Are you sure you don't have any knowledge on the subject? Don’t worry, don't get discouraged! Our recommendation is that you look for someone who can help and direct you so that you could select simple ways to protect my personal data and privacy in digital environments. Take a chance and identify simple ways to use and share personally identifiable information while protecting myself and others from damages. Try to identify simple privacy policy statements of how personal data is used in digital services.",
+          "1": "Go for it! If you are at this level it means that you have already taken a first step. With autonomy and appropriate guidance where needed, select simple ways to protect my personal data and privacy in digital environments, and identify simple ways to use and share personally identifiable information while protecting myself and others from damages. Try to identify simple privacy policy statements of how personal data is used in digital services.",
+          "2": "Going well! One more step? On your own and together with peers, explain well-defined and routine ways to protect my personal data and privacy in digital environments. Have a try and explain well-defined and routine ways to use and share personally identifiable information while protecting myself and others from damages. Indicate well-defined and routine privacy policy statements of how personal data is used in digital services.",
+          "3": "You are on the right track! If you want to improve your skills you could discuss ways to protect my personal data and privacy in digital environments. Have a try and discuss ways to use and share personally identifiable information while protecting myself and others from damages. Indicate privacy policy statements of how personal data is used in digital services.",
+          "4": "Brilliant! You are halfway to excellence, if you want to keep learning until you reach it you could do the following: apply different ways to protect my personal data and privacy in digital environments. While doing this, apply different specific ways to share my data while protecting myself and others from dangers. Explain privacy policy statements of how personal data is used in digital services.",
+          "5": "Neat! You are already well versed in the subject, if you want to be a professional, you could start working with others, choose the more appropriate ways to protect personal data and privacy in digital environments, and evaluate the most appropriate ways of using and sharing personally identifiable information while protecting yourself and others from damages. To be a real gamechanger, try to evaluate the appropriateness of privacy policy statements on how personal data are used.",
+          "6": "Grade A! If you want to become an expert, we recommend that you create solutions to complex problems with limited definition that are related to protecting personal data and privacy in digital environments, using and sharing personally identifiable information protecting self and others from dangers, and privacy policies to use my personal data. Integrate my knowledge to contribute to professional practice and knowledge and guide others in protecting personal data and privacy.",
+          "7": "If you are on the way to becoming an expert, we recommend that you create solutions to solve complex problems with many interacting factors that are related to protecting personal data and privacy in digital environments, using and sharing personally identifiable information protecting self and others from dangers, and privacy policies to use my personal data.",
+          "8": "Well done! This is because of your previous great work. You are an expert in protecting personal data and privacy. It is time to put it into practice and contribute to society with your knowledge."
+        }
+      },
+      "related_section": ["most_relevant", "safety"],
+      "tick_icon_limit": 7
+    },
+    "protecting_health_and_well_being": {
+      "title": {
+        "es": "Proteger la salud y el bienestar",
+        "en": "Protecting health and well-being"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "¿Estás seguro de que no tienes ningún conocimiento sobre el tema? ¡No te preocupes, no te desanimes! Nuestra recomendación es que diferencie formas simples para evitar los riesgos de salud y las amenazas para el bienestar físico y psicológico mientras utiliza tecnologías digitales. Intente seleccionar formas simples de protegerme de posibles peligros en entornos digitales. Además de esto, identifique tecnologías digitales simples para el bienestar social y la inclusión social.",
+          "1": "¡Bien hecho! Si está en este nivel, significa que ya ha dado un primer paso en este asunto. Ahora, para continuar aprendiendo que podría, en la medida de lo posible, con una ayuda externa mínima, diferenciar formas simples para evitar el riesgo de salud y las amenazas para el bienestar físico y psicológico mientras usan tecnologías digitales. Seleccione formas simples de protegerme de posibles peligros en entornos digitales. Identifique tecnologías digitales simples para el bienestar social y la inclusión social. ¡Sigue así, estás en el camino correcto!",
+          "2": "¡Genial! Creo que sabes algo sobre la protección de la salud en entornos digitales. Si cree que está listo para mudarse a otro nivel, podría, por su cuenta y resolver problemas directos, explicar formas bien definidas y rutinarias para evitar el riesgo de salud y las amenazas para el bienestar físico y psicológico mientras usa tecnologías digitales. Seleccione formas rutinarias bien definidas y rutinarias para protegerme de los peligros en entornos digitales. Indique tecnologías digitales bien definidas y rutinarias para el bienestar social y la inclusión social.",
+          "3": "¡Bien! ¡Es interesante! Prepárese para mejorar de acuerdo con sus propias necesidades y las de otros en contextos complejos explicando formas de evitar amenazas a mi salud física y psicológica relacionadas con el uso de la tecnología. Además, seleccione formas de protegerse y a los demás de los peligros en entornos digitales. Intente discutir tecnologías digitales para el bienestar y la inclusión social.",
+          "4": "¡Brillante! Estás a medio camino de la excelencia. Si desea obtener más información, muestre diferentes formas de evitar el riesgo de salud y las amenazas para el bienestar físico y psicológico mientras utiliza tecnologías digitales. Aplique diferentes formas de protegerme a mí mismo y a los demás de los peligros en entornos digitales. ¿Estás listo para mostrar diferentes tecnologías digitales para el bienestar social y la inclusión social ahora?",
+          "5": "¡Limpio! Ya está bien versado en el tema, si desea ser un profesional, podría discriminar entre las formas más apropiadas para evitar los restos de salud y las amenazas para el bienestar físico y psicológico mientras usa tecnologías digitales. Adapte las formas más apropiadas de protegerme a mí mismo y a los demás de los peligros en entornos digitales. Varíe el uso de tecnologías digitales para el bienestar social y la inclusión social.",
+          "6": "¡Que asombroso! Continúe si se convierte en un experto. Si desea estar en un nivel altamente especializado, trate de crear soluciones a problemas complejos con una definición limitada que estén relacionadas con la evitación de la salud y las amenazas para el bienestar mientras usan tecnologías digitales, para proteger a sí mismo y a otros de los peligros en entornos digitales , y para el uso de tecnologías digitales para el bienestar social y la inclusión social. Tómese un tiempo para integrar mi conocimiento para contribuir a la práctica y el conocimiento profesional y guiar a otros para proteger la salud.",
+          "7": "¡Grado A! Continúa si quieres convertirte en un experto. Para alcanzar un nivel altamente especializado, puede crear soluciones para resolver problemas complejos con muchos factores interactivos relacionados con la evitación de la salud y las amenazas para el bienestar mientras usan tecnologías digitales, para proteger a sí mismo y a otros de los peligros en entornos digitales, y Para el uso de tecnologías digitales para el bienestar social y la inclusión social. Intente proponer nuevas ideas y procesos en el campo.",
+          "8": "¡Bien hecho! ¡Sigan con el buen trabajo! ¡Tienes mucho talento para proteger la salud para ti y para otros! ¡Continúa así!"
+        },
+        "en": {
+          "0": "Are you sure you don't have any knowledge on the subject? Don’t worry, don't get discouraged! Our recommendation is that you differentiate simple ways to avoid health-risks and threats to physical and psychological well-being while using digital technologies. Try to select simple ways to protect myself from possible dangers in digital environments. Besides this, identify simple digital technologies for social well-being and social inclusion.",
+          "1": "Well done! If you are at this level it means that you have already taken a first step in this matter. Now to continue learning you could, as far as possible with minimal external help, differentiate simple ways to avoid health-risks and threats to physical and psychological well-being while using digital technologies. Select simple ways to protect myself from possible dangers in digital environments. Identify simple digital technologies for social well-being and social inclusion. Keep it up, you are on the right track!!",
+          "2": "That’s great! I think you know something about protecting health in digital environments. If you think you are ready to move to another level, you could, on your own and solve straightforward problems, explain well-defined and routine ways to avoid health-risks and threats to physical and psychological well-being while using digital technologies. Select well-defined and routine ways to protect myself from dangers in digital environments. Indicate well-defined and routine digital technologies for social well-being and social inclusion.",
+          "3": "Right! It is interesting! Get ready to get better according to your own needs and those of others in complex contexts by explaining ways to avoid threats to my physical and psychological health related with the use of technology. Besides, select ways to protect yourself and others from dangers in digital environments. Have a try at discussing digital technologies for social well-being and inclusion.",
+          "4": "Brilliant! You are halfway to excellence. If you want to learn more, show different ways to avoid health-risks and threats to physical and psychological well-being while using digital technologies. Apply different ways to protect myself and others from dangers in digital environments. Are you ready to show different digital technologies for social well-being and social inclusion now?",
+          "5": "Neat! You are already well versed in the subject, if you want to be a professional, you could discriminate between the most appropriate ways to avoid health -risks and threats to physical and psychological well-being while using digital technologies. Adapt the most appropriate ways to protect myself and others from dangers in digital environments. Vary the use of digital technologies for social well-being and social inclusion.",
+          "6": "How great! Continue if you become an expert. If you want to be at a highly specialised level, try to create solutions to complex problems with limited definition that are related to avoiding health -risks and threats to well-being while using digital technologies, to protect self and others from dangers in digital environments, and to the use of digital technologies for social well-being and social inclusion. Take some time to integrate my knowledge to contribute to professional practice and knowledge and guide others in protecting health.",
+          "7": "Grade A! Continue if you want to become an expert. To reach a highly specialised level, you could create solutions to solve complex problems with many interacting factors that are related to avoiding health -risks and threats to well-being while using digital technologies, to protect self and others from dangers in digital environments, and to the use of digital technologies for social well-being and social inclusion. Try to propose new ideas and processes to the field.",
+          "8": "Well done! Keep up the good work! You are very talented at protecting health for you and others! Continue like that!"
+        }
+      },
+      "related_section": ["safety"],
+      "tick_icon_limit": 7
+    },
+    "protecting_the_environment": {
+      "title": {
+        "es": "Protegiendo al medio ambiente",
+        "en": "Protecting the environment"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "¿Estás seguro de que no tienes ningún conocimiento sobre el tema? ¡Sigue adelante! ¡No te preocupes y no te desanimes! Nuestra recomendación es que reconoce los impactos ambientales simples de las tecnologías digitales y su uso. ¿Podrías hacer eso?",
+          "1": "¡A por ello! Si está en este nivel, significa que ya ha dado un primer paso en este asunto. Ahora, para continuar aprendiendo que podría, en la medida de lo posible con autonomía y orientación apropiada, reconocer los impactos ambientales simples de las tecnologías digitales y su uso.",
+          "2": "¡Va bien! Para seguir adelante, trate de explicar cuál es una oportunidad de creación de valor. También puede indicar impactos ambientales bien definidos y rutinarios de las tecnologías digitales y su uso. Tenga en cuenta que no está solo en esto, no lo tome como una tarea universitaria más, puede hacer estas actividades con la ayuda de sus compañeros y centrarse en áreas de su interés.",
+          "3": "¡Estás en el camino correcto! Si desea mejorar sus habilidades, establezca un grupo de usuarios y necesidades que desee abordar. Una vez que lo tenga, compártelo con amigos, colegas, maestros al compartir algunas responsabilidades, puede discutir formas de proteger el entorno del impacto de las tecnologías digitales y su uso.",
+          "4": "¡¡Estás en el camino correcto!! Si desea mejorar sus habilidades, por su cuenta y resolver problemas directos, podría mostrar diferentes formas de proteger el medio ambiente del impacto de las tecnologías digitales y su uso.",
+          "5": "¡Limpio! Ya estás bien versado en el tema. Si desea ser un profesional, guiando a otros, elija las soluciones más apropiadas para proteger el entorno del impacto de las tecnologías digitales y su uso.",
+          "6": "¡Estás muy avanzado! Si desea convertirse en un experto, le recomendamos que cree soluciones a problemas complejos con definiciones limitadas relacionadas con la protección del medio ambiente del impacto de las tecnologías digitales y su uso. Además, podría integrar mi conocimiento para contribuir a la práctica y el conocimiento profesional y guiar a otros para proteger el medio ambiente.",
+          "7": "Estás a un paso de la excelencia en el campo. Nuestra recomendación para usted es crear soluciones para resolver problemas complejos con muchos factores que están relacionados con la protección del medio ambiente del impacto de las tecnologías digitales y su uso. Proponga nuevas ideas y procesos también para desarrollar el campo.",
+          "8": "¡¡Bien hecho!! ¡Sigan con el buen trabajo! Eres un protector del medio ambiente. Es hora de ponerlo en práctica y contribuir a la sociedad con su conocimiento."
+        },
+        "en": {
+          "0": "Are you sure you don't have any knowledge on the subject? Keep going! Don’t worry and don't get discouraged! Our recommendation is that you recognise simple environmental impacts of digital technologies and their use. Could you do that?",
+          "1": "Go for it! If you are at this level it means that you have already taken a first step in this matter. Now to continue learning you could, as far as possible with autonomy and appropriate guidance, recognise simple environmental impacts of digital technologies and their use.",
+          "2": "Going well! To move on, try to explain what a value-creating opportunity is. You could also indicate well-defined and routine environmental impacts of digital technologies and their use. Keep in mind that you are not alone in this, don't take it as just another university assignment, you can do these activities with the help of your peers and focusing on areas of your interest.",
+          "3": "You are on the right track! If you want to improve your skills, establish a group of users and needs that you want to address. Once you have it, share it with friends, colleagues, teachers by sharing some responsibilities, you could discuss ways to protect the environment from the impact of digital technologies and their use.",
+          "4": "You are on the right track!! If you want to improve your skills, on your own and solving straightforward problems, you could show different ways to protect the environment from the impact of digital technologies and their use.",
+          "5": "Neat! You are already well versed in the subject. If you want to be a pro, guiding others, choose the most appropriate solutions to protect the environment from the impact of digital technologies and their use.",
+          "6": "You are very advanced! If you want to become an expert, we recommend that you create solutions to complex problems with limited definitions that are related to protecting the environment from the impact of digital technologies and their use. What’s more, you could integrate my knowledge to contribute to professional practice and knowledge and guide others in protecting the environment.",
+          "7": "You are one step away from excellence in the field. Our recommendation for you is to create solutions to solve complex problems with many interacting factors that are related to protecting the environment from the impact of digital technologies and their use. Propose new ideas and processes as well to develop the field.",
+          "8": "Well done!! Keep up the good work! You are a protector of the environment. It is time to put it into practice and contribute to society with your knowledge."
+        }
+      },
+      "related_section": ["safety"],
+      "tick_icon_limit": 7
+    },
+    "solving_technical_problems": {
+      "title": {
+        "es": "Resolver problemas técnicos",
+        "en": "Solving technical problems"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "¡Sigue adelante! Nuestra recomendación es que busque a alguien que pueda ayudarlo a identificar problemas técnicos simples al operar dispositivos y usar entornos digitales, e identificar soluciones simples para resolverlos.",
+          "1": "¡Sigue así, estás en el camino correcto! Si está en este nivel, significa que ya ha dado un primer paso en este asunto. Ahora, para continuar aprendiendo que podría, en la medida de lo posible con alguna autonomía y orientación apropiada, identificar problemas técnicos simples al operar dispositivos y usar entornos digitales, e identificar soluciones simples para resolverlos.",
+          "2": "¡Va bien! Para seguir adelante, por su cuenta y resolver problemas directos, puede intentar indicar problemas técnicos bien definidos y de rutina al operar dispositivos y usar entornos digitales, y seleccionar soluciones bien definidas y rutinarias para ellos.",
+          "3": "¡¡Estás en el camino correcto!! Si desea mejorar sus habilidades, intente diferenciar los problemas técnicos al operar dispositivos y usar entornos digitales de forma independiente y de acuerdo con sus propias necesidades. Intente también seleccionar soluciones.",
+          "4": "¡Brillante! Si desea obtener más información, guiando a otros, puede evaluar los problemas técnicos al usar entornos digitales y operar dispositivos digitales, y aplicarlos diferentes soluciones.",
+          "5": "¡Limpio! Ya estás bien versado en el tema, si quieres ser un profesional, de acuerdo con mis propias necesidades y las de los demás en contextos complejos, deberías de acuerdo con mis propias necesidades y las de los demás, y en contextos complejos, resolverlas con las soluciones más apropiadas.",
+          "6": "¡Estás muy avanzado! Si desea convertirse en un experto, le recomendamos que cree soluciones a problemas complejos con una definición limitada que estén relacionadas con problemas técnicos al operar dispositivos y usar entornos digitales.",
+          "7": "Estás a un paso de la excelencia en el campo. Nuestra recomendación para usted es crear soluciones para resolver problemas complejos con muchos factores que están relacionados con problemas técnicos al operar dispositivos y usar entornos digitales. ¿Podría proponer nuevas ideas y procesos al campo también?",
+          "8": "¡¡Bien hecho!! Ese es un muy buen trabajo. Estás altamente especializado para resolver problemas técnicos. Es hora de ponerlo en práctica y contribuir a la sociedad con su conocimiento."
+        },
+        "en": {
+          "0": "Keep going! Our recommendation is that you look for someone who can help you to identify simple technical problems when operating devices and using digital environments, and identify simple solutions to solve them.",
+          "1": "Keep it up, you are on the right track! If you are at this level it means that you have already taken a first step in this matter. Now to continue learning you could, as far as possible with some autonomy and appropriate guidance, identify simple technical problems when operating devices and using digital environments, and identify simple solutions to solve them.",
+          "2": "Going well! To move on, on your own and solving straightforward problems, you could try to indicate well-defined and routine technical problems when operating devices and using digital environments, and select well-defined and routine solutions to them.",
+          "3": "You are on the right track!! If you want to improve your skills, try to differentiate technical problems when operating devices and using digital environments independently and according to your own needs. Try also to select solutions to them.",
+          "4": "Brilliant! If you want to learn more, guiding others, you could assess technical problems when using digital environments and operating digital devices, and apply different solutions to them.",
+          "5": "Neat! You are already well versed in the subject, if you want to be a pro, according to my own needs and those of others in complex contexts, you should according to my own needs and those of others, and in complex contexts, resolve them with the most appropriate solutions.",
+          "6": "You are very advanced! If you want to become an expert, we recommend that you create solutions to complex problems with limited definition that are related to technical problems when operating devices and using digital environments.",
+          "7": "You are one step away from excellence in the field. Our recommendation for you is to create solutions to solve complex problems with many interacting factors that are related to technical problems when operating devices and using digital environments. Could you please propose new ideas and processes to the field as well?",
+          "8": "Well done!! That’s a really good job. You are highly specialised in solving technical problems. It is time to put it into practice and contribute to society with your knowledge."
+        }
+      },
+      "related_section": ["problem_solving"],
+      "tick_icon_limit": 7
+    },
+    "identifying_needs_and_technological_responses": {
+      "title": {
+        "es": "Identificar necesidades y respuestas tecnológicas",
+        "en": "Identifying needs and technological responses"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "Ok, ¡eso es un comienzo! Recomendamos que comience en un nivel básico y con orientación, identificación de necesidades y reconozca herramientas digitales simples y posibles respuestas tecnológicas para resolver esas necesidades. Intente elegir también formas simples de ajustar y personalizar los entornos digitales a las necesidades personales.",
+          "1": "¡Genial! Creo que sabes algo sobre la identificación de necesidades y respuestas tecnológicas. Si cree que está listo para moverse a otro nivel, puede identificar las necesidades y reconocer herramientas digitales simples y posibles respuestas tecnológicas para resolver esas necesidades. Elija formas simples de ajustar y personalizar los entornos digitales a las necesidades personales. ¡Prueba esto!",
+          "2": "¡Bien hecho! Te estás convirtiendo en un profesional. Sin embargo, aquí hay algo que podría probar: por su cuenta y resolver problemas directos, trate de indicar necesidades bien definidas y de rutina, y seleccione herramientas digitales bien definidas y de rutina y posibles respuestas tecnológicas para resolver esas necesidades. Podría ser una buena idea seleccionar formas bien definidas y rutinarias para ajustar y personalizar los entornos digitales a las necesidades personales.",
+          "3": "¡¡Estás en el camino correcto!! Si desea mejorar sus habilidades, asumir y compartir algunas responsabilidades, podría explicar las necesidades y seleccionar herramientas digitales y posibles respuestas tecnológicas para resolver esas necesidades. Intente seleccionar formas de ajustar y personalizar los entornos digitales a las necesidades personales.",
+          "4": "¡Brillante! Estás a medio camino de la excelencia. Si desea seguir aprendiendo hasta que lo alcance, puede hacer lo siguiente: evaluar las necesidades, aplicar diferentes herramientas digitales y posibles respuestas tecnológicas para resolver esas necesidades. Use diferentes formas de ajustar y personalizar los entornos digitales a las necesidades personales.",
+          "5": "¡Limpio! Si desea ser un profesional, identificando las necesidades y las respuestas tecnológicas, evalúe las necesidades. También puede elegir las herramientas digitales más apropiadas y las posibles respuestas tecnológicas para resolver esas necesidades. Decide también las formas más apropiadas de ajustar y personalizar los entornos digitales a las necesidades personales.",
+          "6": "¡Esto es genial! ¿Sabía usted que? Sin embargo, es importante que sepa que todavía hay margen de mejora: crear soluciones a problemas complejos con una definición limitada utilizando herramientas digitales y posibles respuestas tecnológicas, y adaptar y personalizar los entornos digitales a las necesidades personales. Puede integrar su conocimiento para contribuir a la práctica y el conocimiento profesional y guiar a otros para identificar las necesidades y las respuestas tecnológicas.",
+          "7": "Estás a un paso de la excelencia en el campo. Nuestra recomendación para que continúe practicando, al crear soluciones para resolver problemas complejos con muchos factores que interactúan utilizando herramientas digitales y posibles respuestas tecnológicas, y adaptar y personalizar entornos digitales a las necesidades personales. También debe proponer nuevas ideas para el campo.",
+          "8": "¡¡Bien hecho!! Sigan con el buen trabajo, usted es un experto en la identificación de necesidades y respuestas tecnológicas. Es hora de ponerlo en práctica y contribuir a la sociedad con su conocimiento."
+        },
+        "en": {
+          "0": "Ok, that’s a start! We recommend that you should start at a basic level and with guidance, identifying needs, and recognise simple digital tools and possible technological responses to solve those needs. Try to choose also simple ways to adjust and customise digital environments to personal needs.",
+          "1": "That’s great! I think you know something about identifying needs and technological responses. If you think you are ready to move to another level, you could identify needs, and recognise simple digital tools and possible technological responses to solve those needs. Choose simple ways to adjust and customise digital environments to personal needs. Try this!",
+          "2": "Well done! You’re becoming a pro. However, here is something you could try: on your own and solving straightforward problems, try to indicate well-defined and routine needs, and select well-defined and routine digital tools and possible technological responses to solve those needs. It could be a wise idea to select well-defined and routine ways to adjust and customise digital environments to personal needs.",
+          "3": "You are on the right track!! If you want to improve your skills, taking and sharing some responsibilities, you could explain needs, and select digital tools and possible technological responses to solve those needs. Try to select ways to adjust and customise digital environments to personal needs.",
+          "4": "Brilliant! You are halfway to excellence. If you want to keep learning until you reach it you could do the following: assess needs, apply different digital tools and possible technological responses to solve those needs. Use different ways to adjust and customise digital environments to personal needs.",
+          "5": "Neat! If you want to be a pro, identifying needs and technological responses, assess needs. You could also choose the most appropriate digital tools and possible technological responses to solve those needs. Decide also the most appropriate ways to adjust and customise digital environments to personal needs.",
+          "6": "This is great! Did you know that? However, it’s important for you to know that there is still room for improvement: create solutions to complex problems with limited definition using digital tools and possible technological responses, and to adapt and customise digital environments to personal needs. You could integrate your knowledge to contribute to professional practice and knowledge and guide others in identifying needs and technological responses.",
+          "7": "You are one step away from excellence in the field. Our recommendation for you to continue to practise, on creating solutions to solve complex problems with many interacting factors using digital tools and possible technological responses, and to adapt and customise digital environments to personal needs. You should also propose new ideas for the field.",
+          "8": "Well done!! Keep up the good work, you are an expert in identifying needs and technological responses. It is time to put it into practice and contribute to society with your knowledge."
+        }
+      },
+      "related_section": ["problem_solving"],
+      "tick_icon_limit": 7
+    },
+    "creatively_using_technology": {
+      "title": {
+        "es": "Utilizando creativamente la tecnología",
+        "en": "Creatively using technology"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "¡Sigue adelante! Nuestra recomendación es que identifique herramientas y tecnologías digitales simples que se pueden utilizar para crear conocimiento e innovar procesos y productos. Solicite ayuda para mostrar interés individual y colectivamente en un procesamiento cognitivo simple para comprender y resolver problemas conceptuales simples y situaciones problemáticas en entornos digitales.",
+          "1": "¡A por ello! Si está en este nivel, significa que ya ha dado un primer paso en este asunto. Ahora, para continuar aprendiendo que podría, en la medida de lo posible, con una ayuda externa mínima, tratar de identificar herramientas y tecnologías digitales simples que puedan usarse para crear conocimiento e innovar procesos y productos. Intente y siga el procesamiento cognitivo individual y colectivamente simple para comprender y resolver problemas conceptuales simples y situaciones problemáticas en entornos digitales.",
+          "2": "¡Bien hecho! Te estás convirtiendo en un profesional. Sin embargo, aquí hay algo que podría probar: seleccionar herramientas y tecnologías digitales que se puedan utilizar para crear un conocimiento bien definido y procesos y productos innovadores bien definidos. Puede participar individual y colectivamente en un procesamiento cognitivo para comprender y resolver problemas conceptuales y situaciones de problemas bien definidas y rutinarias en entornos digitales.",
+          "3": "¡¡Estás en el camino correcto!! Si desea mejorar sus habilidades, diferencie las herramientas y tecnologías digitales que se pueden utilizar para crear conocimientos e innovar procesos y productos. Participe individual y colectivamente en el procesamiento cognitivo para comprender y resolver problemas conceptuales y situaciones problemáticas en entornos digitales.",
+          "4": "¡Brillante! Usted está a medio camino de la excelencia, si desea seguir aprendiendo hasta que llegue a él, puede hacer lo siguiente: aplique diferentes herramientas y tecnologías digitales para crear conocimientos y procesos y productos innovadores. Puede aplicar un procesamiento cognitivo individual y colectivamente para resolver diferentes problemas conceptuales y situaciones problemáticas en entornos digitales.",
+          "5": "¡Bien! Es muy importante que puedas hacer eso. Prepárese para adaptar las herramientas y tecnologías digitales más apropiadas para crear conocimiento e innovar procesos y productos. Aquí tiene otra idea: resolver problemas conceptuales individuales y colectivos y situaciones problemáticas en entornos digitales.",
+          "6": "¡Limpio! Si desea ser un profesional, puede comenzar a pensar en sus necesidades y en las de los demás, creando soluciones a problemas complejos con una definición limitada utilizando herramientas y tecnologías digitales. Trate de integrar su conocimiento para contribuir a la práctica y el conocimiento profesional y guiar a otros en el uso creativo de tecnologías digitales.",
+          "7": "Si se está convirtiendo en un experto, le recomendamos que cree soluciones para resolver problemas complejos con muchos factores que interactúan utilizando herramientas y tecnologías digitales. En este nivel, ¿crees que podría proponer nuevas ideas y procesos en el campo? Tener esto en mente.",
+          "8": "¡Bien hecho! ¡Sigan con el buen trabajo! Eres muy creativo en el uso de tecnologías digitales. Es hora de ponerlo en práctica y contribuir a la sociedad con su conocimiento."
+        },
+        "en": {
+          "0": "Keep going! Our recommendation is that you identify simple digital tools and technologies that can be used to create knowledge and to innovate processes and products. Ask for some help to show interest individually and collectively in simple cognitive processing to understand and resolve simple conceptual problems and problem situations in digital environments.",
+          "1": "Go for it! If you are at this level it means that you have already taken a first step in this matter. Now to continue learning you could, as far as possible with minimal external help, try to identify simple digital tools and technologies that can be used to create knowledge and to innovate processes and products. Try and follow individually and collectively simple cognitive processing to understand and resolve simple conceptual problems and problem situations in digital environments.",
+          "2": "Well done! You’re becoming a pro. However, here is something you could try: select digital tools and technologies that can be used to create well-defined knowledge and well-defined innovative processes and products. You could engage individually and collectively in some cognitive processing to understand and resolve well-defined and routine conceptual problems and problem situations in digital environments.",
+          "3": "You are on the right track!! If you want to improve your skills, differentiate digital tools and technologies that can be used to create knowledge and to innovate processes and products. Engage individually and collectively in cognitive processing to understand and resolve conceptual problems and problem situations in digital environments.",
+          "4": "Brilliant! You are halfway to excellence, if you want to keep learning until you reach it you could do the following: apply different digital tools and technologies to create knowledge and innovative processes and products. You could apply individually and collectively cognitive processing to resolve different conceptual problems and problem situations in digital environments.",
+          "5": "Right! It’s very important that you can do that. Get ready to adapt the most appropriate digital tools and technologies to create knowledge and to innovate processes and products. Here you have another idea: resolve individually and collectively conceptual problems and problem situations in digital environments.",
+          "6": "Neat! If you want to be a pro, you could start thinking about your needs and those of others, creating solutions to complex problems with limited definition using digital tools and technologies. Try to integrate your knowledge to contribute to professional practice and knowledge and guide others in creatively using digital technologies.",
+          "7": "If you are becoming an expert, we recommend that you create solutions to solve complex problems with many interacting factors using digital tools and technologies. At this level, do you think you could propose new ideas and processes to the field? Have this in mind.",
+          "8": "Well done! Keep up the good work! You are very creative in using digital technologies.  It is time to put it into practice and contribute to society with your knowledge."
+        }
+      },
+      "related_section": ["problem_solving"],
+      "tick_icon_limit": 7
+    },
+    "identifying_digital_competence_gaps": {
+      "title": {
+        "es": "Identificación de brechas de competencia digital",
+        "en": "Identifying digital competence gaps"
+      },
+      "empty": {
+        "es": "No se han proporcionado datos",
+        "en": "No data provided"
+      },
+      "feedback": {
+        "es": {
+          "0": "Bueno, no te preocupes. ¡No te desanimes! Nuestra recomendación es que reconozca dónde debe mejorarse o actualizarse mi propia competencia digital. Identifique dónde buscar oportunidades para autodesarrabos y mantenerse actualizado con la evolución digital.",
+          "1": "¡A por ello! Si está en este nivel, significa que ya ha dado un primer paso en este asunto. Ahora, para continuar aprendiendo, puede reconocer dónde debe mejorarse o actualizarse su propia competencia digital con la orientación adecuada. Además, puede identificar dónde buscar oportunidades para el autodesarrollo y mantenerse al día con la evolución digital.",
+          "2": "¡Bien! Es muy importante que puedas hacer eso. Prepárese para mejorar sus habilidades digitales explicando dónde debe mejorarse o actualizarse mi competencia digital. ¿Podría indicar dónde buscar oportunidades bien definidas para el autodesarrollo y mantenerse al día con la evolución digital?",
+          "3": "¡Qué lindo! Es muy importante que puedas hacer eso. Prepárese para mejorar sus habilidades digitales de forma independiente discutiendo dónde debe mejorarse o actualizarse su competencia digital. Indique cómo apoyar a otros para desarrollar su competencia digital y dónde buscar oportunidades para el desarrollo personal y mantenerse al día con la evolución digital.",
+          "4": "¡Brillante! Usted está a medio camino de la excelencia, si desea seguir aprendiendo hasta que lo alcance, puede hacer lo siguiente: demuestre dónde debe mejorarse o actualizarse su propia competencia digital. Ilustra diferentes formas de apoyar a otros en el desarrollo de su competencia digital. Debe proponer diferentes oportunidades encontradas para el autodesarrollo y mantenerse al día con la evolución digital.",
+          "5": "¡Grado A! Estás en el camino correcto. Pero siempre hay margen de mejora, ¿no? En contextos complejos y de acuerdo con sus propias necesidades y las de los demás, podría ser excelente si decide cuáles son las formas más apropiadas de mejorar o actualizar las propias necesidades de competencia digital. Evaluar el desarrollo de la competencia digital de los demás. Elija las oportunidades más apropiadas para el autodesarrollo y para mantener la fecha con los nuevos desarrollos.",
+          "6": "¡Que asombroso! Continúe si se convierte en un experto. Si desea estar en un nivel altamente especializado, trate de crear soluciones a problemas complejos con una definición limitada relacionadas con la mejora de la competencia digital y encontrar oportunidades para el autodesarrollo y mantenerse al día con los nuevos desarrollos. Esa es otra recomendación: integrar su conocimiento para contribuir a la práctica y el conocimiento profesional y guiar a otros para identificar las brechas de competencia digital.",
+          "7": "Estás a un paso de la excelencia en el campo. Nuestra recomendación para que continúe practicando es que cree soluciones para resolver problemas complejos con muchos factores que están relacionados con la mejora de la competencia digital y encontrar oportunidades para el autodesarrollo y mantenerse al día con la evolución digital. ¿Listo para más? Proponga nuevas ideas y procesos al campo también.",
+          "8": "¡¡Bien hecho!! ¡Sigan con el buen trabajo! Usted es un experto en la identificación de brechas de competencia digital. Es hora de ponerlo en práctica y contribuir a la sociedad con su conocimiento."
+        },
+        "en": {
+          "0": "Well, don’t worry. Don't get discouraged! Our recommendation is that you recognise where my own digital competence needs to be improved or updated. Identify where to seek opportunities for self-developments and to keep up-to-date with the digital evolution.",
+          "1": "Go for it! If you are at this level it means that you have already taken a first step in this matter. Now to continue learning you could recognise where your own digital competence needs to be improved or updated with appropriate guidance. Besides, you could identify where to seek opportunities for self-developments and to keep up-to-date with the digital evolution.",
+          "2": "Right! It’s very important that you can do that. Get ready to improve your digital skills by explaining where my digital competence needs to be improved or updated. Could you indicate where to seek well-defined opportunities for self-developments and to keep up-to-date with the digital evolution.",
+          "3": "That’s nice! It’s very important that you can do that. Get ready to improve your digital skills independently by discussing where your digital competence needs to be improved or updated. Indicate how to support others to develop their digital competence and where to seek opportunities for self-developments and to keep up-to-date with the digital evolution.",
+          "4": "Brilliant! You are halfway to excellence, if you want to keep learning until you reach it you could do the following: demonstrate where your own digital competence needs to be improved or updated. Illustrate different ways to support others in the development of their digital competence. You should propose different opportunities found for self-development and to keep up-to-date with the digital evolution.",
+          "5": "Grade A! You are on the right track. But there is always room for improvement, isn’t? In complex contexts and according to your own needs and those of others, it could be great if you decide which are the most appropriate ways to improve or update one’s own digital competence needs. Assess the development of others’ digital competence. Choose the most appropriate opportunities for self-development and to keep up-to date with new developments.",
+          "6": "How great! Continue if you become an expert. If you want to be at a highly specialised level, try to create solutions to complex problems with limited definition that are related to improving digital competence, and to find opportunities for self-development and to keep up-to-date with new developments. That’s another recommendation: integrate your knowledge to contribute to professional practice and knowledge and to guide others in identifying digital competence gaps.",
+          "7": "You are one step away from excellence in the field. Our recommendation for you to continue to practise is that you create solutions to solve complex problems with many interacting factors that are related to improving digital competence, and to find opportunities for self-development and to keep up-to-date with the digital evolution. Ready for more? Propose new ideas and processes to the field as well.",
+          "8": "Well done!! Keep up the good work! You are an expert in identifying digital competence gaps. It is time to put it into practice and contribute to society with your knowledge."
+        }
+      },
+      "related_section": ["problem_solving"],
+      "tick_icon_limit": 7
+    }
+  }
+}

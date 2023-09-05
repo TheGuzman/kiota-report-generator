@@ -1,0 +1,24 @@
+<div class="feedback__container">
+  <div class="feedback__header">
+    <p class="feedback__header__title">
+      <%= area.title %>
+    </p>
+    <div class="feedback__header__badge__container">
+      <% if(i===0) { %>
+        <img class="feedback__header__icon"
+          src='/assets/icons/<%=area.feedbackValue>=area.tickIconLimit?"pass-icon":"warning-icon" %>.svg'
+          alt="status-feedback icon">
+        <%} %>
+
+          <div class="feedback__badge">
+            <p class="feedback__badge__text">Feedback <%= area.feedbackValue %>
+            </p>
+          </div>
+    </div>
+  </div>
+  <div class="feedback-description__container">
+    <p class="feedback__text">
+      <%= area.feedbackDescription %>
+    </p>
+  </div>
+</div>

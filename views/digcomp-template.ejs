@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="/styles/digcomp-styles.css">
+</head>
+
+<body>
+  <header class="report__header">
+    <%- include('partials/header-template') %>
+      <%- include('partials/user-data-section-template', {reportData}) %>
+        <h1 class="report__title">
+          <%= reportData.title %>
+        </h1>
+        <p class="report__description">
+          This report provides a detailed assessment of your entrepreneurial competencies. It measures your skills and
+          capabilities in key areas related to entrepreneurship, offering you a comprehensive view of your strengths and
+          areas for improvement. The report provides valuable and personalized information so that you can enhance your
+          entrepreneurial profile and confidently pursue your professional goals.
+        </p>
+  </header>
+  <main class="main__container">
+
+    <% reportData.reportData.sections.forEach((section, i)=> { %>
+
+      <div class="<%= i>0?'area__container-fh' : 'area__container' %>">
+        <h2 class="<%= i>0?'area__title' : 'area__title-first' %>">
+          <%= section.title %>
+        </h2>
+        <div class="<%= i>0?'area__graph__container' : 'area__graph__container area__graph__container__resume' %>">
+          <img class="graph__image" src='/imgs/<%=section.title.replace(/\s/g, "-").toLowerCase() %>.png' alt="graph">
+        </div>
+        <div class="feedback-list__container">
+
+          <% section.areas.forEach(area=> { %>
+
+            <%- include('partials/report-feedback-template', {area, i}) %>
+
+              <% }) %>
+
+        </div>
+        <% if(i!==reportData.reportData.sections.length-1){ %>
+          <div class="<%= i>0?'area__divisor' : 'area__divisor area__first-divisor' %>"></div>
+          <%} %>
+
+      </div>
+      <% }) %>
+
+  </main>
+  <%- include('partials/footer-template') %>
+</body>
+
+
+
+
+</html>
