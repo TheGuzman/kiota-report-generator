@@ -13,7 +13,8 @@
     "dev": " tsc && node dist/server.js",
     "test": "jest",
     "test:coverage": "npm test -- --coverage",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "gcp-build": "node node_modules/puppeteer/install.js"
   },
   "keywords": [],
   "author": "Diego Guzmán Medrano",
