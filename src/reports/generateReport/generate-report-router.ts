@@ -28,7 +28,7 @@ generateReportRouter.route('/').post((req, res) => {
     { reportData },
     async (err, _data) => {
       if (err) {
-        console.log(err);
+        log.info(err);
       } else {
         reportData.reportData.sections.forEach(async section => {
           await generateRadarGraph(
