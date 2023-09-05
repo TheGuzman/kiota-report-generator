@@ -4,6 +4,9 @@
   "description": "",
   "main": "dist/server.js",
   "type": "module",
+  "engines": {
+    "node": ">=15 <16"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
