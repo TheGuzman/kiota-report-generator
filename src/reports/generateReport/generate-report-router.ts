@@ -55,7 +55,11 @@ generateReportRouter.route('/').post((req, res) => {
 export default generateReportRouter;
 
 const printPDF = async (reportData: ReportView) => {
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch({
+    headless: true,
+    ignoreDefaultArgs: ['--disable-extensions'],
+    args: ['--no-sandbox', '--use-gl=egl', '--disable-setuid-sandbox'],
+  });
   const page = await browser.newPage();
   const viewport = page.viewport() as Viewport;
 
