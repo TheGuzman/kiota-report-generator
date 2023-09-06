@@ -1,4 +1,3 @@
-/* eslint-disable operator-linebreak */
 /* eslint-disable func-call-spacing */
 import ejs from 'ejs';
 import express from 'express';
@@ -65,10 +64,6 @@ const printPDF = async (reportData: ReportView) => {
       '--single-process',
       '--no-zygote',
     ],
-    executablePath:
-      process.env.NODE_ENV === 'production'
-        ? process.env.PUPPETEER_EXECUTABLE_PATH
-        : puppeteer.executablePath(),
   });
   const page = await browser.newPage();
   const viewport = page.viewport() as Viewport;
