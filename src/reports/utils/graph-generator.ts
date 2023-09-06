@@ -94,10 +94,16 @@ export const generateRadarGraph = async (
             color: colors.primaryHex,
           },
           pointLabels: {
-            padding: 15,
+            padding(context: any) {
+              if (context.index === 0) {
+                return setCustomPadding(context.label.length);
+              }
+
+              return 15;
+            },
             color: colors.primaryHex,
             font: {
-              size: 14,
+              size: 12,
               weight: '900',
               family: 'Inter',
             },
@@ -157,3 +163,5 @@ export const generateRadarGraph = async (
   });
   return dataUrl;
 };
+
+const setCustomPadding = (stringLength: number): number => stringLength;
