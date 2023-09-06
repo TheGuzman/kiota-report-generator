@@ -33,8 +33,8 @@ generateReportRouter.route('/').post((req, res) => {
         reportData.reportData.sections.forEach(async section => {
           await generateRadarGraph(
             {
-              width: 420,
-              height: 420,
+              width: 440,
+              height: 440,
               backgroundColour: 'transparent',
               chartData: {
                 labels: section.areas.map(area => area.title),
