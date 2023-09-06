@@ -45,9 +45,10 @@ generateReportRouter.route('/').post((req, res) => {
             reportData.type,
           );
         });
-        await printPDF(reportData);
+        const pfdFile = await printPDF(reportData);
         cleanImagesDirectory();
-        res.send(reportData);
+        log.info('generated ReportData', reportData);
+        res.download(pfdFile as string);
       }
     },
   );
