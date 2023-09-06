@@ -103,7 +103,7 @@ export const generateRadarGraph = async (
             },
             color: colors.primaryHex,
             font: {
-              size: 12,
+              size: (context: any) => setCustomFontSize(context.label.length),
               weight: '900',
               family: 'Inter',
             },
@@ -165,3 +165,10 @@ export const generateRadarGraph = async (
 };
 
 const setCustomPadding = (stringLength: number): number => stringLength;
+const setCustomFontSize = (stringLength: number): number => {
+  if (stringLength >= 50) {
+    return 11;
+  }
+
+  return 12;
+};
