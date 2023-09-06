@@ -1,3 +1,4 @@
+/* eslint-disable operator-linebreak */
 /* eslint-disable func-call-spacing */
 import ejs from 'ejs';
 import express from 'express';
@@ -58,7 +59,16 @@ const printPDF = async (reportData: ReportView) => {
   const browser = await puppeteer.launch({
     headless: true,
     ignoreDefaultArgs: ['--disable-extensions'],
-    args: ['--no-sandbox', '--use-gl=egl', '--disable-setuid-sandbox'],
+    args: [
+      '--disable-setuid-sandbox',
+      '--no-sandbox',
+      '--single-process',
+      '--no-zygote',
+    ],
+    executablePath:
+      process.env.NODE_ENV === 'production'
+        ? process.env.PUPPETEER_EXECUTABLE_PATH
+        : puppeteer.executablePath(),
   });
   const page = await browser.newPage();
   const viewport = page.viewport() as Viewport;
@@ -105,7 +115,7 @@ const cleanImagesDirectory = () => {
       const filePath = path.join('public/imgs/', file);
       const stats = fs.statSync(filePath);
 
-      if (stats.isFile()) {
+      if (stats.isFile() && file !== '.gitkeep') {
         fs.unlinkSync(filePath);
       }
     }
