@@ -195,6 +195,12 @@ body {
 .area__graph__container__resume {
   height: 250px;
 }
+.graph__image {
+  height: 350px;
+  width: 350px;
+  bottom: 60px;
+  position: relative;
+}
 
 .area__divisor,
 .area__first-divisor {
