@@ -96,6 +96,7 @@ const printPDF = async (reportData: ReportView) => {
       format: 'A4',
       path: process.env.ARTIFACTS_PATH + `${date}.pdf`,
       printBackground: true,
+      timeout: 0,
     });
     await browser.close();
 
