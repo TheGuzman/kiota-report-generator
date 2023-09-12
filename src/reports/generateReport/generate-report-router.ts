@@ -57,7 +57,7 @@ export default generateReportRouter;
 
 const printPDF = async (reportData: ReportView) => {
   const browser = await puppeteer.launch({
-    headless: true,
+    headless: false,
     ignoreDefaultArgs: ['--disable-extensions'],
     args: [
       '--disable-setuid-sandbox',

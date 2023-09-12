@@ -162,6 +162,10 @@ body {
 .report__title {
   padding-top: 1.5rem;
 }
+.area__title,
+.area__title-first {
+  padding-bottom: var(--spacing-token-sm);
+}
 
 .area__title-first {
   padding-top: var(--spacing-token-sm);
