@@ -70,7 +70,11 @@ const printPDF = async (reportData: ReportView) => {
   const viewport = page.viewport() as Viewport;
   log.info(viewport, 'viewPort');
 
-  page.setViewport({ deviceScaleFactor: 2, ...viewport });
+  page.setViewport({
+    deviceScaleFactor: 2,
+    width: viewport.width + 20,
+    height: viewport.height,
+  });
   const date = Date.now();
 
   await page.setRequestInterception(true);
