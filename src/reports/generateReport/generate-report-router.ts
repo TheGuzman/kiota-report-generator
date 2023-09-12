@@ -68,6 +68,7 @@ const printPDF = async (reportData: ReportView) => {
   });
   const page = await browser.newPage();
   const viewport = page.viewport() as Viewport;
+  log.info(viewport, 'viewPort');
 
   page.setViewport({ deviceScaleFactor: 2, ...viewport });
   const date = Date.now();
