@@ -46,6 +46,7 @@ generateReportRouter.route('/').post((req, res) => {
         });
         const date = Date.now();
         log.info(reportData.reportData.sections);
+        // Await generatePDF(reportData);
         const pfdFile = (await generatePDF(reportData)) as Buffer;
 
         cleanImagesDirectory();
@@ -55,6 +56,50 @@ generateReportRouter.route('/').post((req, res) => {
     },
   );
 });
+// .get((_req, res) => {
+//   const requestData = {
+//     language: 'es',
+//     report: 'digcomp',
+//     user_data: {
+//       name: 'Diego Guzmán',
+//       sex: 'Male',
+//       age: 29,
+//       college_career: 'Computer Engineering',
+//       educational_level: 'Higher Education',
+//       date: '25/08/2023',
+//     },
+//     areas: {
+//       interacting_through_digital_technologies: 2,
+//       sharing_through_digital_technologies: 4,
+//       engaging_in_online_citizenship_through_digital_technologies: 4,
+//       communication_and_collaboration: 5,
+//       netiquette: 1,
+//       managing_digital_identity: 3,
+//       developing_content: 4,
+//       integrating_and_reelaborating: 2,
+//       copyright_and_licenses: 1,
+//       programming: 2,
+//       protecting_devices: 5,
+//       protecting_personal_data_and_privacy: 5,
+//       protecting_health_and_well_being: 3,
+//       protecting_the_environment: 7,
+//       solving_technical_problems: 6,
+//       identifying_needs_and_technological_responses: 4,
+//       creatively_using_technology: 4,
+//       identifying_digital_competence_gaps: 2,
+//       browsing_searching_and_filtering_information: 3,
+//       evaluating_data_information_and_digital_content: 3,
+//       managing_data_information_and_digital_content: 5,
+//     },
+//   };
+//   const reportAdapter = new ReportRequestAdapter(
+//     requestData as ReportRequest,
+//   );
+//   const reportData = reportAdapter.adaptReportRequestToView();
+//   res.render('digcomp-template.ejs', {
+//     reportData,
+//   });
+// });
 export default generateReportRouter;
 
 const generatePDF = async (
@@ -97,6 +142,7 @@ const generatePDF = async (
     const file = await page.pdf({
       format: 'A4',
       printBackground: true,
+      path: process.env.ARTIFACTS_PATH + `${Date.now()}.pdf`,
       timeout: 0,
     });
 
