@@ -120,7 +120,7 @@ export const generateRadarGraph = async (
                   result += word + ' ';
                   currentLineLength += word.length + 1;
                 } else {
-                  result += '\n' + word + ' ';
+                  result += '\n ' + word + ' ';
                   currentLineLength = word.length + 1;
                 }
               }
