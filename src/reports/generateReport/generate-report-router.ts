@@ -1,16 +1,15 @@
 /* eslint-disable func-call-spacing */
+import AWS from 'aws-sdk';
 import ejs from 'ejs';
 import express from 'express';
-import path from 'path';
-import puppeteer from 'puppeteer';
-
 import fs from 'fs';
+import path from 'path';
+import puppeteer, { Viewport } from 'puppeteer';
+import log from '../../logger.js';
 import { generateRadarGraph } from '../utils/graph-generator.js';
 import { ReportRequestAdapter } from '../utils/report-view-adapter.js';
 import { ReportRequest, ReportType, ReportView } from './report-model.js';
 
-import { Viewport } from 'puppeteer';
-import log from '../../logger.js';
 const urlMap = new Map<string, () => string>([
   ['entrecomp', () => process.env.ENTRECOMP as string],
   ['digcomp', () => process.env.DIGCOMP as string],
@@ -45,17 +44,21 @@ generateReportRouter.route('/').post((req, res) => {
             reportData.type,
           );
         });
-        const pfdFile = await printPDF(reportData);
+        const date = Date.now();
+        const pfdFile = (await generatePDF(reportData)) as Buffer;
+
         cleanImagesDirectory();
-        log.info('generated ReportData', reportData);
-        res.download(pfdFile as string);
+        const reportFile = await uploadReport(date, pfdFile.toString('base64'));
+        res.json(reportFile.Location);
       }
     },
   );
 });
 export default generateReportRouter;
 
-const printPDF = async (reportData: ReportView) => {
+const generatePDF = async (
+  reportData: ReportView,
+): Promise<Buffer | undefined> => {
   const browser = await puppeteer.launch({
     headless: true,
     ignoreDefaultArgs: ['--disable-extensions'],
@@ -68,14 +71,7 @@ const printPDF = async (reportData: ReportView) => {
   });
   const page = await browser.newPage();
   const viewport = page.viewport() as Viewport;
-  log.info(viewport, 'viewPort');
-
-  page.setViewport({
-    deviceScaleFactor: 2,
-    width: viewport.width + 20,
-    height: viewport.height,
-  });
-  const date = Date.now();
+  page.setViewport({ deviceScaleFactor: 2, ...viewport });
 
   await page.setRequestInterception(true);
 
@@ -97,17 +93,46 @@ const printPDF = async (reportData: ReportView) => {
     await page.goto(geturl() as string, {
       waitUntil: ['domcontentloaded', 'networkidle0', 'load'],
     });
-    await page.pdf({
+    const file = await page.pdf({
       format: 'A4',
-      path: process.env.ARTIFACTS_PATH + `${date}.pdf`,
       printBackground: true,
       timeout: 0,
     });
-    await browser.close();
 
-    const file = process.env.ARTIFACTS_PATH + `${date}.pdf`;
+    await browser.close();
     return file;
   }
+};
+
+const uploadReport = async (
+  date: number,
+  file: string,
+): Promise<AWS.S3.ManagedUpload.SendData> => {
+  const s3 = new AWS.S3({
+    region: process.env.AWS_BUCKET_REGION,
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+  });
+
+  const data: AWS.S3.ManagedUpload.SendData = await s3
+    .upload(
+      {
+        Bucket: process.env.AWS_BUCKET_NAME!,
+        Key: date.toString() + '.pdf',
+        Body: Buffer.from(file, 'base64'),
+        ContentType: 'application/pdf',
+      },
+      (err, data) => {
+        if (err) {
+          log.info(err);
+          return;
+        }
+
+        log.info(`File uploaded successfully. ${data.Location}`);
+      },
+    )
+    .promise();
+  return data;
 };
 
 const cleanImagesDirectory = () => {
