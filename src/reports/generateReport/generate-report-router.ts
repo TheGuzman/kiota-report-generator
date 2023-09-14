@@ -122,7 +122,7 @@ const uploadReport = async (
         Body: Buffer.from(file, 'base64'),
         ContentType: 'application/pdf',
       },
-      (err, data) => {
+      (err: any, data: any) => {
         if (err) {
           log.info(err);
           return;
