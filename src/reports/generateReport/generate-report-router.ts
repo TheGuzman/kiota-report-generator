@@ -45,6 +45,7 @@ generateReportRouter.route('/').post((req, res) => {
           );
         });
         const date = Date.now();
+        log.info(reportData.reportData.sections);
         const pfdFile = (await generatePDF(reportData)) as Buffer;
 
         cleanImagesDirectory();

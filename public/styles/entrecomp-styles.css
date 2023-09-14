@@ -193,7 +193,7 @@ body {
   display: flex;
   justify-content: center;
   height: 280px;
-  padding-top: var(--spacing-token-xs);
+  padding-top: var(--spacing-token-xxs);
   width: 100%;
 }
 .area__graph__container__resume {
