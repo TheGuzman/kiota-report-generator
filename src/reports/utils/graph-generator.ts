@@ -99,7 +99,7 @@ export const generateRadarGraph = async (
                 return setCustomPadding(context.label.length);
               }
 
-              return 15;
+              return 0;
             },
             color: colors.primaryHex,
             font: {
@@ -120,7 +120,7 @@ export const generateRadarGraph = async (
                   result += word + ' ';
                   currentLineLength += word.length + 1;
                 } else {
-                  result += '\n ' + word + ' ';
+                  result += '\n' + word + ' ';
                   currentLineLength = word.length + 1;
                 }
               }
@@ -166,7 +166,7 @@ export const generateRadarGraph = async (
 
 const setCustomPadding = (stringLength: number): number => stringLength;
 const setCustomFontSize = (stringLength: number): number => {
-  if (stringLength >= 43) {
+  if (stringLength >= 50) {
     return 11;
   }
 
