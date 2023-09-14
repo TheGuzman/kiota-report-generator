@@ -108,7 +108,7 @@ export const generateRadarGraph = async (
               family: 'Inter',
             },
             callback(input: string) {
-              if (input.length <= 15) {
+              if (input.length <= 13) {
                 return input;
               }
 
@@ -116,7 +116,7 @@ export const generateRadarGraph = async (
               let currentLineLength = 0;
 
               for (const word of input.split(' ')) {
-                if (currentLineLength + word.length <= 15) {
+                if (currentLineLength + word.length <= 13) {
                   result += word + ' ';
                   currentLineLength += word.length + 1;
                 } else {
@@ -167,7 +167,7 @@ export const generateRadarGraph = async (
 const setCustomPadding = (stringLength: number): number => stringLength;
 const setCustomFontSize = (stringLength: number): number => {
   if (stringLength >= 50) {
-    return 10;
+    return 11;
   }
 
   return 12;
