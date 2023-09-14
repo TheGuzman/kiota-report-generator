@@ -200,7 +200,8 @@ body {
   height: 250px;
 }
 .graph__image {
-  width: 300px;
+  height: 350px;
+  width: 350px;
   bottom: 60px;
   position: relative;
 }
