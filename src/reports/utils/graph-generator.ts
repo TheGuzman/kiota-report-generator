@@ -167,7 +167,7 @@ export const generateRadarGraph = async (
 const setCustomPadding = (stringLength: number): number => stringLength;
 const setCustomFontSize = (stringLength: number): number => {
   if (stringLength >= 50) {
-    return 11;
+    return 10;
   }
 
   return 12;
